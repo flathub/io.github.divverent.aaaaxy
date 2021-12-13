@@ -53,8 +53,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/divVerent/aaaaxy
-        tag: v1.0.89
-        commit: febd2223d1d3bcb8eea306e48917301982749cec
+        tag: v1.0.103
+        commit: e95ea786715b311312e2f9f12780125965ecaf50
         # Needed to allow querying the version during build.
         disable-shallow-clone: true
       - type: file
@@ -86,7 +86,7 @@ modules:
         dest: vendor/github.com/fardog/tmx
       - type: git
         url: https://github.com/go-gl/glfw
-        commit: 40e447a793be3543d926449946f77f85505dbeed
+        commit: caad923f49f49da6834c183daae7b59e7fc2e4fc
         dest: vendor/github.com/go-gl/glfw
       - type: git
         url: https://github.com/golang/freetype
@@ -111,8 +111,8 @@ modules:
         dest: vendor/github.com/google/licenseclassifier
       - type: git
         url: https://github.com/hajimehoshi/ebiten
-        tag: v2.2.2
-        commit: 97af84c32a2fab6c151559e58379c7746c2cf2ab
+        tag: v2.2.3
+        commit: 67d158b4517d6af379628227afff5172399dc92c
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/hajimehoshi/oto
@@ -211,7 +211,7 @@ modules:
         dest: vendor/golang.org/x/crypto
       - type: git
         url: https://go.googlesource.com/exp
-        commit: 8a230f1f7d7a4905d4551b473275e86e2aadfe86
+        commit: e05463a05a18a08b42330f3e246c91dfac7fddfd
         dest: vendor/golang.org/x/exp
       - type: git
         url: https://go.googlesource.com/image
@@ -219,7 +219,7 @@ modules:
         dest: vendor/golang.org/x/image
       - type: git
         url: https://go.googlesource.com/mobile
-        commit: d61a72f26a1aa0e53cd846e90f115dbbd20cd067
+        commit: 4e6c2922fdeed32d3596616518aaee7b0d79ce55
         dest: vendor/golang.org/x/mobile
       - type: git
         url: https://go.googlesource.com/mod
@@ -235,7 +235,7 @@ modules:
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
-        commit: fe61309f888157de161a48facf03d9412635cffe
+        commit: af8b64212486582a9c87128a5289fc4ad7b9c922
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/tools
