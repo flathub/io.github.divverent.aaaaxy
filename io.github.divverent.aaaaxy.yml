@@ -54,7 +54,7 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         tag: v1.0.112
-        commit: d21628adf3eb1e95cd71a55174ed04bda4ec93cc
+        commit: c0fc0691565331c65da7e91cdbfc77ab209ecd88
         # Needed to allow querying the version during build.
         disable-shallow-clone: true
       - type: file
