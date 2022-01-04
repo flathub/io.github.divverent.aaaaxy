@@ -53,8 +53,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/divVerent/aaaaxy
-        tag: v1.0.126
-        commit: e449075bbce28444006854c8918161ab69f456a8
+        tag: v1.0.140
+        commit: 98758d5805f56ff5e634cd9bc06d23cc06423d1b
         # Needed to allow querying the version during build.
         disable-shallow-clone: true
       - type: file
@@ -86,7 +86,7 @@ modules:
         dest: vendor/github.com/fardog/tmx
       - type: git
         url: https://github.com/go-gl/glfw
-        commit: caad923f49f49da6834c183daae7b59e7fc2e4fc
+        commit: 748e38ca8aecd6b0646cba97eed16259a4af568f
         dest: vendor/github.com/go-gl/glfw
       - type: git
         url: https://github.com/golang/freetype
@@ -116,8 +116,8 @@ modules:
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/hajimehoshi/oto
-        tag: v2.1.0-alpha.4
-        commit: c22435daf0950bfadae39090b29ee5e9911a6768
+        tag: v2.1.0-alpha.5
+        commit: e881edbd933f67855e99c80025a3dbe93b7a4373
         dest: vendor/github.com/hajimehoshi/oto/v2
       - type: git
         url: https://github.com/inconshreveable/mousetrap
@@ -211,7 +211,7 @@ modules:
         dest: vendor/golang.org/x/crypto
       - type: git
         url: https://go.googlesource.com/exp
-        commit: e05463a05a18a08b42330f3e246c91dfac7fddfd
+        commit: e2903617856920ba01fa8266847b6f0608a43490
         dest: vendor/golang.org/x/exp
       - type: git
         url: https://go.googlesource.com/image
@@ -235,7 +235,7 @@ modules:
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
-        commit: af8b64212486582a9c87128a5289fc4ad7b9c922
+        commit: 1d35b9e2eb4edf581781c7f3e2a36fac701f0a24
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/tools
