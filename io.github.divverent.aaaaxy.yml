@@ -53,8 +53,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/divVerent/aaaaxy
-        tag: v1.0.140
-        commit: 98758d5805f56ff5e634cd9bc06d23cc06423d1b
+        tag: v1.0.162
+        commit: d16585b5c8aa73ee96e771a7ba754fdbf2f3f899
         # Needed to allow querying the version during build.
         disable-shallow-clone: true
       - type: file
@@ -144,8 +144,8 @@ modules:
         dest: vendor/github.com/jfreymuth/vorbis
       - type: git
         url: https://github.com/josephspurrier/goversioninfo
-        tag: v1.3.0
-        commit: a8878317895b8e0313246346e1a7d79ef833208c
+        tag: v1.4.0
+        commit: 233067e5ebdfc62d994b1446a607b40ced91907b
         dest: vendor/github.com/josephspurrier/goversioninfo
       - type: git
         url: https://github.com/kevinburke/ssh_config
@@ -211,7 +211,7 @@ modules:
         dest: vendor/golang.org/x/crypto
       - type: git
         url: https://go.googlesource.com/exp
-        commit: e2903617856920ba01fa8266847b6f0608a43490
+        commit: 025e73f80486958a9c517ade99a38db4628f15d6
         dest: vendor/golang.org/x/exp
       - type: git
         url: https://go.googlesource.com/image
@@ -219,7 +219,7 @@ modules:
         dest: vendor/golang.org/x/image
       - type: git
         url: https://go.googlesource.com/mobile
-        commit: 4e6c2922fdeed32d3596616518aaee7b0d79ce55
+        commit: 4a8be17bd2e3f4793a871839e766cbea7e999464
         dest: vendor/golang.org/x/mobile
       - type: git
         url: https://go.googlesource.com/mod
