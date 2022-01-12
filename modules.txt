@@ -206,7 +206,7 @@ golang.org/x/image/font/gofont/goregular
 golang.org/x/image/font/gofont/gosmallcaps
 golang.org/x/image/math/f64
 golang.org/x/image/math/fixed
-# golang.org/x/mobile v0.0.0-20220104184238-4a8be17bd2e3
+# golang.org/x/mobile v0.0.0-20220112015953-858099ff7816
 ## explicit; go 1.16
 golang.org/x/mobile/app
 golang.org/x/mobile/app/internal/callfn
@@ -230,7 +230,7 @@ golang.org/x/net/proxy
 # golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 ## explicit
 golang.org/x/sync/errgroup
-# golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e
+# golang.org/x/sys v0.0.0-20220111092808-5a964db01320
 ## explicit; go 1.17
 golang.org/x/sys/cpu
 golang.org/x/sys/execabs

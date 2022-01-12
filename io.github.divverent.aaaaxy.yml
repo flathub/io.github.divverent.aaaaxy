@@ -53,8 +53,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/divVerent/aaaaxy
-        tag: v1.0.162
-        commit: d16585b5c8aa73ee96e771a7ba754fdbf2f3f899
+        tag: v1.0.183
+        commit: e5365099822c4df8ec131bff2f38458e7a76bcc8
         # Needed to allow querying the version during build.
         disable-shallow-clone: true
       - type: file
@@ -219,7 +219,7 @@ modules:
         dest: vendor/golang.org/x/image
       - type: git
         url: https://go.googlesource.com/mobile
-        commit: 4a8be17bd2e3f4793a871839e766cbea7e999464
+        commit: 858099ff7816818cadcc1811d602f42640d33bb5
         dest: vendor/golang.org/x/mobile
       - type: git
         url: https://go.googlesource.com/mod
@@ -235,7 +235,7 @@ modules:
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
-        commit: 1d35b9e2eb4edf581781c7f3e2a36fac701f0a24
+        commit: 5a964db013201115fcba5c3d31ade965d0969335
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/tools
