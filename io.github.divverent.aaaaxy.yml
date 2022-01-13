@@ -53,8 +53,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/divVerent/aaaaxy
-        tag: v1.0.187
-        commit: 874bdf5af24fa32107d812335aed68349a8f8e79
+        tag: v1.0.187+flatpak-1
+        commit: 10f6be059be2fff8f5dc7bd6203b4a16d7e65717
         # Needed to allow querying the version during build.
         disable-shallow-clone: true
       - type: file
