@@ -54,9 +54,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.0.187+flatpak-1
+        tag: v1.1.6
         # --- REV GOES HERE ---
-        commit: 10f6be059be2fff8f5dc7bd6203b4a16d7e65717
+        commit: abd1531e707df1c2a32a3f21dac70f53cb78b873
         # Needed to allow querying the version during build.
         disable-shallow-clone: true
       - type: file
@@ -113,8 +113,8 @@ modules:
         dest: vendor/github.com/google/licenseclassifier
       - type: git
         url: https://github.com/hajimehoshi/ebiten
-        tag: v2.2.3
-        commit: 67d158b4517d6af379628227afff5172399dc92c
+        tag: v2.2.4
+        commit: 7f569f30714dcbe6c761725c5cfcb3813afc5155
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/hajimehoshi/oto
@@ -213,7 +213,7 @@ modules:
         dest: vendor/golang.org/x/crypto
       - type: git
         url: https://go.googlesource.com/exp
-        commit: 025e73f80486958a9c517ade99a38db4628f15d6
+        commit: 9d54fb35363cf67f0e1d2566e19509673e97c236
         dest: vendor/golang.org/x/exp
       - type: git
         url: https://go.googlesource.com/image
@@ -237,7 +237,7 @@ modules:
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
-        commit: 5a964db013201115fcba5c3d31ade965d0969335
+        commit: da31bd327af904dd4721b4eefa7c505bb3afd214
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/tools
