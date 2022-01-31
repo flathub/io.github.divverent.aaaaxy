@@ -43,7 +43,7 @@ modules:
       - |
         . /usr/lib/sdk/golang/enable.sh
         export PATH=/app/builddeps/bin:$PATH
-        make BUILDTYPE=release BINARY=/app/bin/aaaaxy
+        AAAAXY_BUILD_USE_VERSION_FILE=true make BUILDTYPE=release BINARY=/app/bin/aaaaxy
         mkdir -p /app/share/icons/hicolor/128x128/apps
         cp aaaaxy.png /app/share/icons/hicolor/128x128/apps/io.github.divverent.aaaaxy.png
         mkdir -p /app/share/applications
@@ -54,11 +54,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.1.31
+        tag: v1.1.66
         # --- REV GOES HERE ---
-        commit: c1235d17c75504da395c69c0512f68ca3757d412
-        # Needed to allow querying the version during build.
-        disable-shallow-clone: true
+        commit: c1b75fc4a8868efc0bb6a6d5d7601a71898775bf
       - type: file
         path: modules.txt
         dest: vendor
@@ -218,7 +216,7 @@ modules:
         dest: vendor/golang.org/x/crypto
       - type: git
         url: https://go.googlesource.com/exp
-        commit: 7b334a16533f8c246a29e830921f71a7d549c08c
+        commit: 073fb133917255bbd7d71328b2dd8cd2233561b5
         dest: vendor/golang.org/x/exp
       - type: git
         url: https://go.googlesource.com/image
