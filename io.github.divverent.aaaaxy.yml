@@ -43,7 +43,7 @@ modules:
       - |
         . /usr/lib/sdk/golang/enable.sh
         export PATH=/app/builddeps/bin:$PATH
-        AAAAXY_BUILD_USE_VERSION_FILE=true make BUILDTYPE=release BINARY=/app/bin/aaaaxy
+        AAAAXY_BUILD_USE_VERSION_FILE=true AAAAXY_GENERATE_ASSETS=false make BUILDTYPE=release BINARY=/app/bin/aaaaxy
         mkdir -p /app/share/icons/hicolor/128x128/apps
         cp aaaaxy.png /app/share/icons/hicolor/128x128/apps/io.github.divverent.aaaaxy.png
         mkdir -p /app/share/applications
@@ -54,13 +54,18 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.1.112
+        tag: v1.1.166
         # --- REV GOES HERE ---
-        commit: cecc2fb0a48bea18c6ad2932f47847893bf904ff
+        commit: a76fb881198640101498fcadf79da8e8a7b0979c
       - type: file
         path: modules.txt
         dest: vendor
       # --- GO MODULES START HERE, USE go-vendor-to-flatpak-yml.sh TO UPDATE ---
+      - type: git
+        url: https://github.com/Microsoft/go-winio
+        tag: v0.5.1
+        commit: 6c24dfa01eb5906508a5ad06f4f6534a9be47456
+        dest: vendor/github.com/Microsoft/go-winio
       - type: git
         url: https://github.com/adrg/xdg
         tag: v0.4.0
@@ -116,8 +121,7 @@ modules:
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/hajimehoshi/oto
-        tag: v2.1.0-alpha.5
-        commit: e881edbd933f67855e99c80025a3dbe93b7a4373
+        commit: 539b6322111ac9156e96e60684e56f735429cb8d
         dest: vendor/github.com/hajimehoshi/oto/v2
       - type: git
         url: https://github.com/inconshreveable/mousetrap
@@ -177,11 +181,6 @@ modules:
         commit: edeb9f37d4d0c28725014fcab6635120197932a1
         dest: vendor/github.com/otiai10/copy
       - type: git
-        url: https://github.com/pkg/errors
-        tag: v0.9.1
-        commit: 614d223910a179a466c1767a985424175c39b465
-        dest: vendor/github.com/pkg/errors
-      - type: git
         url: https://github.com/randall77/makefat
         commit: 7ddd0e42c8442593c87c1705a5545099604008e5
         dest: vendor/github.com/randall77/makefat
@@ -240,7 +239,7 @@ modules:
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
-        commit: da31bd327af904dd4721b4eefa7c505bb3afd214
+        commit: 3681064d51587c1db0324b3d5c23c2ddbcff6e8f
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/tools
