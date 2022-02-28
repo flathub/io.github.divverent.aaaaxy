@@ -33,9 +33,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.1.189
+        tag: v1.1.215
         # --- REV GOES HERE ---
-        commit: 6e1c93b09e5a6ebd91c206bae671ce1c831051f0
+        commit: aac73dd054cc2a098fe2a88d3687796e6444a835
       - type: file
         path: modules.txt
         dest: vendor
@@ -94,9 +94,9 @@ modules:
         commit: 3043a050f148a588e7e0c84dce27579dfe17fd2d
         dest: vendor/github.com/google/licenseclassifier
       - type: git
-        url: https://github.com/hajimehoshi/ebiten
-        tag: v2.2.5
-        commit: 6443af640115accec7b9a6f90ae579a53217688d
+        url: https://github.com/divVerent/ebiten
+        tag: v2.3.0-speedup.2.2.5.1
+        commit: c236a1749a81d67eba062cb4eac725247800939e
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/hajimehoshi/oto
