@@ -6,8 +6,6 @@ sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.golang
 command: aaaaxy
-cleanup:
-  - /builddeps
 finish-args:
   # Needed to access gamepads and for 3D graphics.
   # If we ever get a gamepad-specific permission, switch to that + dri instead.
@@ -19,31 +17,12 @@ finish-args:
   # Needed for audio playback.
   - --socket=pulseaudio
 modules:
-  - name: graphviz
-    sources:
-      - type: archive
-        url: https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/2.50.0/graphviz-2.50.0.tar.gz
-        sha256: e17021a510bbd2770d4ca4b4eb841138122aaa5948f9e617e6bc12b4bac62e8d
-    config-opts:
-      # Graphviz is only used during the build process, so install it to a
-      # separate place we can keep out of the flatpak.
-      - --prefix=/app/builddeps
-  - name: imagemagick
-    sources:
-      - type: archive
-        url: https://github.com/ImageMagick/ImageMagick6/archive/6.9.12-32.tar.gz
-        sha256: 61943b71ae01bdace5a8d15bee4c3ee607001d026e94c0bfe2a4c3b2a312c91a
-    config-opts:
-      # ImageMagick is only used during the build process, so install it to a
-      # separate place we can keep out of the flatpak.
-      - --prefix=/app/builddeps
   - name: aaaaxy
     buildsystem: simple
     build-commands:
       - |
         . /usr/lib/sdk/golang/enable.sh
-        export PATH=/app/builddeps/bin:$PATH
-        AAAAXY_BUILD_USE_VERSION_FILE=true AAAAXY_GENERATE_ASSETS=false make BUILDTYPE=release BINARY=/app/bin/aaaaxy
+        AAAAXY_BUILD_USE_VERSION_FILE=true make BUILDTYPE=release BINARY=/app/bin/aaaaxy
         mkdir -p /app/share/icons/hicolor/128x128/apps
         cp aaaaxy.png /app/share/icons/hicolor/128x128/apps/io.github.divverent.aaaaxy.png
         mkdir -p /app/share/applications
