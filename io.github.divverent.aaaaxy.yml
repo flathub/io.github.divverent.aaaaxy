@@ -33,9 +33,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.1.251
+        tag: v1.1.280
         # --- REV GOES HERE ---
-        commit: 1a7968d7d6a279431d7e9f216134b4a338fc8c19
+        commit: fe4a88c03160321829758ff72c71899f8b85af6e
       - type: file
         path: modules.txt
         dest: vendor
@@ -70,7 +70,7 @@ modules:
         dest: vendor/github.com/fardog/tmx
       - type: git
         url: https://github.com/go-gl/glfw
-        commit: 748e38ca8aecd6b0646cba97eed16259a4af568f
+        commit: 277f93cfa958a6d7e2f7ca5be59ae85360b1f953
         dest: vendor/github.com/go-gl/glfw
       - type: git
         url: https://github.com/golang/freetype
@@ -99,8 +99,8 @@ modules:
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/hajimehoshi/oto
-        tag: v2.1.0-alpha.7
-        commit: 5191dd76d35e62a1f09a8823f2bde6634028cacc
+        tag: v2.1.0-alpha.8
+        commit: d142925f4f40d5eeb6a13c861412185d2d093189
         dest: vendor/github.com/hajimehoshi/oto/v2
       - type: git
         url: https://github.com/inconshreveable/mousetrap
@@ -204,11 +204,11 @@ modules:
         dest: vendor/golang.org/x/exp
       - type: git
         url: https://go.googlesource.com/image
-        commit: 723b81ca9867ff50b0503a48989028b6133eff47
+        commit: a8550c1d254a56cf1762a2993881d2b23c0c83dd
         dest: vendor/golang.org/x/image
       - type: git
         url: https://go.googlesource.com/mobile
-        commit: 8a0a1e50732f652b0c7a0ef4a9f6903c5dc0ca13
+        commit: 55113b94f09ceef1844cbeaa928aba01fc2cc39a
         dest: vendor/golang.org/x/mobile
       - type: git
         url: https://go.googlesource.com/mod
@@ -224,7 +224,7 @@ modules:
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
-        commit: 4e6760a101f91a504f519f184f6c860395889426
+        commit: a9b59b0215f867c0675d50602208ab8c4f4fe9c7
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/tools
