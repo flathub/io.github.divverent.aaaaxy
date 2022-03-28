@@ -33,9 +33,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.1.280
+        tag: v1.2.4
         # --- REV GOES HERE ---
-        commit: fe4a88c03160321829758ff72c71899f8b85af6e
+        commit: 8aed1cf344bcc3705b8c43b82ad9b958c7e81a7c
       - type: file
         path: modules.txt
         dest: vendor
@@ -73,6 +73,11 @@ modules:
         commit: 277f93cfa958a6d7e2f7ca5be59ae85360b1f953
         dest: vendor/github.com/go-gl/glfw
       - type: git
+        url: https://github.com/gofrs/flock
+        tag: v0.8.1
+        commit: a14e9f39bdc9c4be4c0ccddb25b72bbc9670c429
+        dest: vendor/github.com/gofrs/flock
+      - type: git
         url: https://github.com/golang/freetype
         commit: e2365dfdc4a05e4b8299a783240d4a7d5a65d4e4
         dest: vendor/github.com/golang/freetype
@@ -95,12 +100,11 @@ modules:
         dest: vendor/github.com/google/licenseclassifier
       - type: git
         url: https://github.com/hajimehoshi/ebiten
-        commit: 35f268dfc354704fa78973cdbffe8fef3649dff9
+        commit: 2d912a2387d3ea6406121d24fa62b6c6132707b7
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/hajimehoshi/oto
-        tag: v2.1.0-alpha.8
-        commit: d142925f4f40d5eeb6a13c861412185d2d093189
+        commit: b1c7eb112a8220c06e7d061e623df0bfcb8f2e50
         dest: vendor/github.com/hajimehoshi/oto/v2
       - type: git
         url: https://github.com/inconshreveable/mousetrap
@@ -152,8 +156,8 @@ modules:
         dest: vendor/github.com/mitchellh/hashstructure/v2
       - type: git
         url: https://github.com/ncruces/zenity
-        tag: v0.7.12
-        commit: fca9f5c3cebf4cffb03a16ff323538cc100a2a99
+        tag: v0.7.15
+        commit: 0e246b3d9186c847e9075e0f087c96939cb37440
         dest: vendor/github.com/ncruces/zenity
       - type: git
         url: https://github.com/otiai10/copy
@@ -208,7 +212,7 @@ modules:
         dest: vendor/golang.org/x/image
       - type: git
         url: https://go.googlesource.com/mobile
-        commit: 55113b94f09ceef1844cbeaa928aba01fc2cc39a
+        commit: 447654d348e36cdac65810aa73b4fc8e7b3ceef1
         dest: vendor/golang.org/x/mobile
       - type: git
         url: https://go.googlesource.com/mod
@@ -224,7 +228,7 @@ modules:
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
-        commit: a9b59b0215f867c0675d50602208ab8c4f4fe9c7
+        commit: 530d0810a4d02f3925b731d11fecbc6eb188b03b
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/tools
