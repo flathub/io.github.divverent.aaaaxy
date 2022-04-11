@@ -33,9 +33,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.2.4
+        tag: v1.2.15
         # --- REV GOES HERE ---
-        commit: 8aed1cf344bcc3705b8c43b82ad9b958c7e81a7c
+        commit: 1d4f9638eff30f7c5aaf563306a63ea868e5150e
       - type: file
         path: modules.txt
         dest: vendor
@@ -100,11 +100,12 @@ modules:
         dest: vendor/github.com/google/licenseclassifier
       - type: git
         url: https://github.com/hajimehoshi/ebiten
-        commit: 2d912a2387d3ea6406121d24fa62b6c6132707b7
+        commit: ad66c3d90bdca73f5ad97e814b0e4abe0a8b5374
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/hajimehoshi/oto
-        commit: b1c7eb112a8220c06e7d061e623df0bfcb8f2e50
+        tag: v2.1.0-alpha.9
+        commit: d7aa1d5752b62048274b246db2997dff7ed04c93
         dest: vendor/github.com/hajimehoshi/oto/v2
       - type: git
         url: https://github.com/inconshreveable/mousetrap
@@ -155,9 +156,14 @@ modules:
         commit: a045b665615f739329536a58c25ca6327abf1ec1
         dest: vendor/github.com/mitchellh/hashstructure/v2
       - type: git
+        url: https://github.com/ncruces/go-strftime
+        tag: v0.1.6
+        commit: 64f6105bb8e7f45622d16c68a9a8923b2405027d
+        dest: vendor/github.com/ncruces/go-strftime
+      - type: git
         url: https://github.com/ncruces/zenity
-        tag: v0.7.15
-        commit: 0e246b3d9186c847e9075e0f087c96939cb37440
+        tag: v0.8.2
+        commit: f14ffdef111b8675becad6f7f623cd42178d1613
         dest: vendor/github.com/ncruces/zenity
       - type: git
         url: https://github.com/otiai10/copy
@@ -212,11 +218,11 @@ modules:
         dest: vendor/golang.org/x/image
       - type: git
         url: https://go.googlesource.com/mobile
-        commit: 447654d348e36cdac65810aa73b4fc8e7b3ceef1
+        commit: e579adbbc4a2bb7b98a904201d0200df2f08c2be
         dest: vendor/golang.org/x/mobile
       - type: git
         url: https://go.googlesource.com/mod
-        commit: c96bc1413d570acfb16c7db96b4380cb508ae205
+        commit: 9b9b3d81d5e39b22d65814a8daf6723f3035d813
         dest: vendor/golang.org/x/mod
       - type: git
         url: https://go.googlesource.com/net
@@ -228,11 +234,12 @@ modules:
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
-        commit: 530d0810a4d02f3925b731d11fecbc6eb188b03b
+        commit: 3f8b81556e12aefb24de6d626ad5b2c1f7253818
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/tools
-        commit: d6a9af8af0233f67fad56942665eb392464c2321
+        tag: v0.1.10
+        commit: 6799a7ae926804d94311fff9145861c22f77ba3a
         dest: vendor/golang.org/x/tools
       - type: git
         url: https://go.googlesource.com/xerrors
