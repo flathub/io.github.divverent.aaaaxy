@@ -33,9 +33,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.2.15
+        tag: v1.2.19
         # --- REV GOES HERE ---
-        commit: 1d4f9638eff30f7c5aaf563306a63ea868e5150e
+        commit: 8e065ffe698e927da8acb8ee30fe74bd5a22fadb
       - type: file
         path: modules.txt
         dest: vendor
@@ -100,12 +100,12 @@ modules:
         dest: vendor/github.com/google/licenseclassifier
       - type: git
         url: https://github.com/hajimehoshi/ebiten
-        commit: ad66c3d90bdca73f5ad97e814b0e4abe0a8b5374
+        tag: v2.3.0-rc.2
+        commit: b37962e4ffdc3f20285f2cc8282afdd218f5a94a
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/hajimehoshi/oto
-        tag: v2.1.0-alpha.9
-        commit: d7aa1d5752b62048274b246db2997dff7ed04c93
+        commit: f6e9a2704f461fd844e6e24556a62e98015ce9ba
         dest: vendor/github.com/hajimehoshi/oto/v2
       - type: git
         url: https://github.com/inconshreveable/mousetrap
@@ -214,11 +214,11 @@ modules:
         dest: vendor/golang.org/x/exp
       - type: git
         url: https://go.googlesource.com/image
-        commit: a8550c1d254a56cf1762a2993881d2b23c0c83dd
+        commit: 70e8d0d3baa9a699c3865c753cbfa8ae65bd86ce
         dest: vendor/golang.org/x/image
       - type: git
         url: https://go.googlesource.com/mobile
-        commit: e579adbbc4a2bb7b98a904201d0200df2f08c2be
+        commit: ce6a79cf6a13dd77095a6f8dbee5f39848fa7da1
         dest: vendor/golang.org/x/mobile
       - type: git
         url: https://go.googlesource.com/mod
@@ -234,7 +234,7 @@ modules:
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
-        commit: 3f8b81556e12aefb24de6d626ad5b2c1f7253818
+        commit: 33da011f77ade50ff5b6a6fb4a9a1e6d6b285809
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/tools

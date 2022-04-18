@@ -65,7 +65,7 @@ github.com/google/licenseclassifier/stringclassifier
 github.com/google/licenseclassifier/stringclassifier/internal/pq
 github.com/google/licenseclassifier/stringclassifier/searchset
 github.com/google/licenseclassifier/stringclassifier/searchset/tokenizer
-# github.com/hajimehoshi/ebiten/v2 v2.3.0-alpha.7.0.20220406024846-ad66c3d90bdc
+# github.com/hajimehoshi/ebiten/v2 v2.3.0-rc.2
 ## explicit; go 1.15
 github.com/hajimehoshi/ebiten/v2
 github.com/hajimehoshi/ebiten/v2/audio
@@ -111,7 +111,7 @@ github.com/hajimehoshi/ebiten/v2/internal/thread
 github.com/hajimehoshi/ebiten/v2/internal/ui
 github.com/hajimehoshi/ebiten/v2/internal/vibrate
 github.com/hajimehoshi/ebiten/v2/text
-# github.com/hajimehoshi/oto/v2 v2.1.0-alpha.9
+# github.com/hajimehoshi/oto/v2 v2.2.0-alpha.0.20220412120745-f6e9a2704f46
 ## explicit; go 1.14
 github.com/hajimehoshi/oto/v2
 github.com/hajimehoshi/oto/v2/internal/oboe
@@ -212,7 +212,7 @@ golang.org/x/exp/shiny/driver/internal/lifecycler
 golang.org/x/exp/shiny/driver/internal/win32
 golang.org/x/exp/shiny/driver/internal/x11key
 golang.org/x/exp/shiny/screen
-# golang.org/x/image v0.0.0-20220321031419-a8550c1d254a
+# golang.org/x/image v0.0.0-20220413100746-70e8d0d3baa9
 ## explicit; go 1.12
 golang.org/x/image/colornames
 golang.org/x/image/font
@@ -223,7 +223,7 @@ golang.org/x/image/font/gofont/goregular
 golang.org/x/image/font/gofont/gosmallcaps
 golang.org/x/image/math/f64
 golang.org/x/image/math/fixed
-# golang.org/x/mobile v0.0.0-20220407111146-e579adbbc4a2
+# golang.org/x/mobile v0.0.0-20220414153400-ce6a79cf6a13
 ## explicit; go 1.16
 golang.org/x/mobile/app
 golang.org/x/mobile/app/internal/callfn
@@ -247,7 +247,7 @@ golang.org/x/net/proxy
 # golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 ## explicit
 golang.org/x/sync/errgroup
-# golang.org/x/sys v0.0.0-20220406163625-3f8b81556e12
+# golang.org/x/sys v0.0.0-20220412211240-33da011f77ad
 ## explicit; go 1.17
 golang.org/x/sys/cpu
 golang.org/x/sys/execabs
