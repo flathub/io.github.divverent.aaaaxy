@@ -33,9 +33,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.2.23
+        tag: v1.2.27
         # --- REV GOES HERE ---
-        commit: 808773048d3a19784d925a51fc3235b6ff181bff
+        commit: ca755599013abce94c696bed43d562c30181b2c2
       - type: file
         path: modules.txt
         dest: vendor
@@ -87,8 +87,8 @@ modules:
         dest: vendor/github.com/golang/glog
       - type: git
         url: https://github.com/google/go-cmp
-        tag: v0.5.7
-        commit: 039e37cba1f3e52c48404633d6960421b369a19a
+        tag: v0.5.8
+        commit: f144a35ed4ac538fae93fa3783175108738f71b9
         dest: vendor/github.com/google/go-cmp
       - type: git
         url: https://github.com/google/go-licenses
@@ -158,13 +158,13 @@ modules:
         dest: vendor/github.com/mitchellh/hashstructure/v2
       - type: git
         url: https://github.com/ncruces/go-strftime
-        tag: v0.1.7
-        commit: 06ae71b78c28846a3d6d8db0db8ae3e2eb8aa76f
+        tag: v0.1.8
+        commit: b6c0c5fa1ec4da688a6513d89a0e1f91828135f2
         dest: vendor/github.com/ncruces/go-strftime
       - type: git
         url: https://github.com/ncruces/zenity
-        tag: v0.8.2
-        commit: f14ffdef111b8675becad6f7f623cd42178d1613
+        tag: v0.8.3
+        commit: 951c656546502225202af3b86666a5be984f49d2
         dest: vendor/github.com/ncruces/zenity
       - type: git
         url: https://github.com/otiai10/copy
@@ -235,7 +235,7 @@ modules:
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
-        commit: 9388b58f7150f9378687c2444d0eed2e3603511a
+        commit: b5fbb4746d327e73f1732c57f1fb31249586f8aa
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/tools
