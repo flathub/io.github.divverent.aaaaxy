@@ -27,7 +27,7 @@ github.com/emirpasic/gods/utils
 # github.com/fardog/tmx v0.0.0-20210504210836-02c45f261672
 ## explicit
 github.com/fardog/tmx
-# github.com/go-gl/glfw/v3.3/glfw v0.0.0-20220320163800-277f93cfa958
+# github.com/go-gl/glfw/v3.3/glfw v0.0.0-20220514210836-eae9d2d3f5b7
 ## explicit; go 1.10
 github.com/go-gl/glfw/v3.3/glfw
 github.com/go-gl/glfw/v3.3/glfw/glfw/deps
@@ -65,7 +65,7 @@ github.com/google/licenseclassifier/stringclassifier
 github.com/google/licenseclassifier/stringclassifier/internal/pq
 github.com/google/licenseclassifier/stringclassifier/searchset
 github.com/google/licenseclassifier/stringclassifier/searchset/tokenizer
-# github.com/hajimehoshi/ebiten/v2 v2.3.0
+# github.com/hajimehoshi/ebiten/v2 v2.3.2 => github.com/divVerent/ebiten/v2 v2.3.3-0.20220517135915-073c6f4f13b7
 ## explicit; go 1.15
 github.com/hajimehoshi/ebiten/v2
 github.com/hajimehoshi/ebiten/v2/audio
@@ -111,7 +111,7 @@ github.com/hajimehoshi/ebiten/v2/internal/thread
 github.com/hajimehoshi/ebiten/v2/internal/ui
 github.com/hajimehoshi/ebiten/v2/internal/vibrate
 github.com/hajimehoshi/ebiten/v2/text
-# github.com/hajimehoshi/oto/v2 v2.2.0-alpha.1
+# github.com/hajimehoshi/oto/v2 v2.2.0-alpha.2
 ## explicit; go 1.14
 github.com/hajimehoshi/oto/v2
 github.com/hajimehoshi/oto/v2/internal/oboe
@@ -121,7 +121,7 @@ github.com/inconshreveable/mousetrap
 # github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99
 ## explicit
 github.com/jbenet/go-context/io
-# github.com/jezek/xgb v1.0.0
+# github.com/jezek/xgb v1.0.1
 ## explicit; go 1.11
 github.com/jezek/xgb
 github.com/jezek/xgb/randr
@@ -148,10 +148,7 @@ github.com/mitchellh/go-homedir
 # github.com/mitchellh/hashstructure/v2 v2.0.2
 ## explicit; go 1.14
 github.com/mitchellh/hashstructure/v2
-# github.com/ncruces/go-strftime v0.1.8
-## explicit; go 1.17
-github.com/ncruces/go-strftime
-# github.com/ncruces/zenity v0.8.3
+# github.com/ncruces/zenity v0.8.7
 ## explicit; go 1.17
 github.com/ncruces/zenity
 github.com/ncruces/zenity/internal/zenutil
@@ -223,7 +220,7 @@ golang.org/x/image/font/gofont/goregular
 golang.org/x/image/font/gofont/gosmallcaps
 golang.org/x/image/math/f64
 golang.org/x/image/math/fixed
-# golang.org/x/mobile v0.0.0-20220414153400-ce6a79cf6a13
+# golang.org/x/mobile v0.0.0-20220504144722-50dca8fc073d
 ## explicit; go 1.16
 golang.org/x/mobile/app
 golang.org/x/mobile/app/internal/callfn
@@ -244,10 +241,10 @@ golang.org/x/mod/semver
 golang.org/x/net/context
 golang.org/x/net/internal/socks
 golang.org/x/net/proxy
-# golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
+# golang.org/x/sync v0.0.0-20220513210516-0976fa681c29
 ## explicit
 golang.org/x/sync/errgroup
-# golang.org/x/sys v0.0.0-20220429233432-b5fbb4746d32
+# golang.org/x/sys v0.0.0-20220513210249-45d2b4557a2a
 ## explicit; go 1.17
 golang.org/x/sys/cpu
 golang.org/x/sys/execabs
@@ -325,3 +322,4 @@ gopkg.in/src-d/go-git.v4/utils/merkletrie/noder
 # gopkg.in/warnings.v0 v0.1.2
 ## explicit
 gopkg.in/warnings.v0
+# github.com/hajimehoshi/ebiten/v2 => github.com/divVerent/ebiten/v2 v2.3.3-0.20220517135915-073c6f4f13b7
