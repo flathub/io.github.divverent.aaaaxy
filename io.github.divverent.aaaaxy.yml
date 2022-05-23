@@ -33,9 +33,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.2.34
+        tag: v1.2.42
         # --- REV GOES HERE ---
-        commit: 1e10ce635caa55b7cdb4a1a1ea3341fef15a717b
+        commit: e8e14132cfa073fdf70f27bac8a491c27bbd3ee3
       - type: file
         path: modules.txt
         dest: vendor
@@ -70,7 +70,7 @@ modules:
         dest: vendor/github.com/fardog/tmx
       - type: git
         url: https://github.com/go-gl/glfw
-        commit: eae9d2d3f5b7458d3d857112e776ca7da0d67d94
+        commit: eb3e265c76614051c36c141350d9740d439c068d
         dest: vendor/github.com/go-gl/glfw
       - type: git
         url: https://github.com/gofrs/flock
@@ -213,7 +213,7 @@ modules:
         dest: vendor/golang.org/x/image
       - type: git
         url: https://go.googlesource.com/mobile
-        commit: 50dca8fc073d03ff0058102c8e4672ac302cb764
+        commit: 8578da9835fd365e78a6e63048c103b27a53a82c
         dest: vendor/golang.org/x/mobile
       - type: git
         url: https://go.googlesource.com/mod
@@ -229,7 +229,7 @@ modules:
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
-        commit: 45d2b4557a2a50b687a904f1bd993f5881d3a23a
+        commit: bc2c85ada10aa9b6aa9607e9ac9ad0761b95cf1d
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/tools

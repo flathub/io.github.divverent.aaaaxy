@@ -27,7 +27,7 @@ github.com/emirpasic/gods/utils
 # github.com/fardog/tmx v0.0.0-20210504210836-02c45f261672
 ## explicit
 github.com/fardog/tmx
-# github.com/go-gl/glfw/v3.3/glfw v0.0.0-20220514210836-eae9d2d3f5b7
+# github.com/go-gl/glfw/v3.3/glfw v0.0.0-20220516021902-eb3e265c7661
 ## explicit; go 1.10
 github.com/go-gl/glfw/v3.3/glfw
 github.com/go-gl/glfw/v3.3/glfw/glfw/deps
@@ -220,7 +220,7 @@ golang.org/x/image/font/gofont/goregular
 golang.org/x/image/font/gofont/gosmallcaps
 golang.org/x/image/math/f64
 golang.org/x/image/math/fixed
-# golang.org/x/mobile v0.0.0-20220504144722-50dca8fc073d
+# golang.org/x/mobile v0.0.0-20220518205345-8578da9835fd
 ## explicit; go 1.16
 golang.org/x/mobile/app
 golang.org/x/mobile/app/internal/callfn
@@ -244,7 +244,7 @@ golang.org/x/net/proxy
 # golang.org/x/sync v0.0.0-20220513210516-0976fa681c29
 ## explicit
 golang.org/x/sync/errgroup
-# golang.org/x/sys v0.0.0-20220513210249-45d2b4557a2a
+# golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a
 ## explicit; go 1.17
 golang.org/x/sys/cpu
 golang.org/x/sys/execabs
