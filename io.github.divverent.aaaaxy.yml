@@ -33,9 +33,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.2.42
+        tag: v1.2.44
         # --- REV GOES HERE ---
-        commit: e8e14132cfa073fdf70f27bac8a491c27bbd3ee3
+        commit: 002a1ffc1868a04d15f4de8cd0ac707fb2bb5717
       - type: file
         path: modules.txt
         dest: vendor
@@ -209,7 +209,7 @@ modules:
         dest: vendor/golang.org/x/exp
       - type: git
         url: https://go.googlesource.com/image
-        commit: 70e8d0d3baa9a699c3865c753cbfa8ae65bd86ce
+        commit: 64ec528b34cd31d20d746f6d1aed75f871bbd171
         dest: vendor/golang.org/x/image
       - type: git
         url: https://go.googlesource.com/mobile
@@ -225,7 +225,7 @@ modules:
         dest: vendor/golang.org/x/net
       - type: git
         url: https://go.googlesource.com/sync
-        commit: 0976fa681c295de5355f7a4d968b56cb9da8a76b
+        commit: 0de741cfad7ff3874b219dfbc1b9195b58c7c490
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
