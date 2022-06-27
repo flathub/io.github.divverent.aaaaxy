@@ -27,7 +27,7 @@ github.com/emirpasic/gods/utils
 # github.com/fardog/tmx v0.0.0-20210504210836-02c45f261672
 ## explicit
 github.com/fardog/tmx
-# github.com/go-gl/glfw/v3.3/glfw v0.0.0-20220516021902-eb3e265c7661
+# github.com/go-gl/glfw/v3.3/glfw v0.0.0-20220622232848-a6c407ee30a0
 ## explicit; go 1.10
 github.com/go-gl/glfw/v3.3/glfw
 github.com/go-gl/glfw/v3.3/glfw/glfw/deps
@@ -65,7 +65,7 @@ github.com/google/licenseclassifier/stringclassifier
 github.com/google/licenseclassifier/stringclassifier/internal/pq
 github.com/google/licenseclassifier/stringclassifier/searchset
 github.com/google/licenseclassifier/stringclassifier/searchset/tokenizer
-# github.com/hajimehoshi/ebiten/v2 v2.3.3 => github.com/divVerent/ebiten/v2 v2.3.3-0.20220517135915-073c6f4f13b7
+# github.com/hajimehoshi/ebiten/v2 v2.3.4 => github.com/divVerent/ebiten/v2 v2.3.3-0.20220517135915-073c6f4f13b7
 ## explicit; go 1.15
 github.com/hajimehoshi/ebiten/v2
 github.com/hajimehoshi/ebiten/v2/audio
@@ -111,7 +111,7 @@ github.com/hajimehoshi/ebiten/v2/internal/thread
 github.com/hajimehoshi/ebiten/v2/internal/ui
 github.com/hajimehoshi/ebiten/v2/internal/vibrate
 github.com/hajimehoshi/ebiten/v2/text
-# github.com/hajimehoshi/oto/v2 v2.2.0-alpha.2
+# github.com/hajimehoshi/oto/v2 v2.2.0-alpha.3
 ## explicit; go 1.14
 github.com/hajimehoshi/oto/v2
 github.com/hajimehoshi/oto/v2/internal/oboe
@@ -209,7 +209,7 @@ golang.org/x/exp/shiny/driver/internal/lifecycler
 golang.org/x/exp/shiny/driver/internal/win32
 golang.org/x/exp/shiny/driver/internal/x11key
 golang.org/x/exp/shiny/screen
-# golang.org/x/image v0.0.0-20220601225756-64ec528b34cd
+# golang.org/x/image v0.0.0-20220617043117-41969df76e82
 ## explicit; go 1.12
 golang.org/x/image/colornames
 golang.org/x/image/font
@@ -244,7 +244,7 @@ golang.org/x/net/proxy
 # golang.org/x/sync v0.0.0-20220601150217-0de741cfad7f
 ## explicit
 golang.org/x/sync/errgroup
-# golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a
+# golang.org/x/sys v0.0.0-20220622161953-175b2fd9d664
 ## explicit; go 1.17
 golang.org/x/sys/cpu
 golang.org/x/sys/execabs

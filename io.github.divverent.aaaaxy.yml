@@ -33,9 +33,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.2.44
+        tag: v1.2.47
         # --- REV GOES HERE ---
-        commit: 002a1ffc1868a04d15f4de8cd0ac707fb2bb5717
+        commit: 5ac22fdcef5a87e40f86467bf359d87dcd2223a9
       - type: file
         path: modules.txt
         dest: vendor
@@ -70,7 +70,7 @@ modules:
         dest: vendor/github.com/fardog/tmx
       - type: git
         url: https://github.com/go-gl/glfw
-        commit: eb3e265c76614051c36c141350d9740d439c068d
+        commit: a6c407ee30a0307a64f5195bd06840c97ad89a0a
         dest: vendor/github.com/go-gl/glfw
       - type: git
         url: https://github.com/gofrs/flock
@@ -104,8 +104,8 @@ modules:
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/hajimehoshi/oto
-        tag: v2.2.0-alpha.2
-        commit: 614cf2d40096bede6686fc4d1cb14b97e59cb2b6
+        tag: v2.2.0-alpha.3
+        commit: 629c125bebb7af3d779fa631cc7ec7796679c7bd
         dest: vendor/github.com/hajimehoshi/oto/v2
       - type: git
         url: https://github.com/inconshreveable/mousetrap
@@ -209,7 +209,7 @@ modules:
         dest: vendor/golang.org/x/exp
       - type: git
         url: https://go.googlesource.com/image
-        commit: 64ec528b34cd31d20d746f6d1aed75f871bbd171
+        commit: 41969df76e82aeec85fa3821b1e24955ea993001
         dest: vendor/golang.org/x/image
       - type: git
         url: https://go.googlesource.com/mobile
@@ -229,7 +229,7 @@ modules:
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
-        commit: bc2c85ada10aa9b6aa9607e9ac9ad0761b95cf1d
+        commit: 175b2fd9d664a3f81a8ebc19567a1b82b8dfe07c
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/tools
