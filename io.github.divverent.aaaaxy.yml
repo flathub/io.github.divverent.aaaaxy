@@ -33,9 +33,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.2.47
+        tag: v1.2.141
         # --- REV GOES HERE ---
-        commit: 5ac22fdcef5a87e40f86467bf359d87dcd2223a9
+        commit: 0878d763d4bedad077d9416eaa13b2bd5e3251c3
       - type: file
         path: modules.txt
         dest: vendor
@@ -99,13 +99,14 @@ modules:
         commit: 3043a050f148a588e7e0c84dce27579dfe17fd2d
         dest: vendor/github.com/google/licenseclassifier
       - type: git
-        url: https://github.com/divVerent/ebiten
-        commit: 073c6f4f13b7a23a42b2322e75ea5ec016591c41
+        url: https://github.com/hajimehoshi/ebiten
+        tag: v2.3.5
+        commit: ddef7351c11da779a9233bed2a1b1d7cf12b4cc8
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/hajimehoshi/oto
-        tag: v2.2.0-alpha.3
-        commit: 629c125bebb7af3d779fa631cc7ec7796679c7bd
+        tag: v2.2.0-alpha.4
+        commit: 3c0e9c5d547f765b34902d94c05e705dba0ff46a
         dest: vendor/github.com/hajimehoshi/oto/v2
       - type: git
         url: https://github.com/inconshreveable/mousetrap
@@ -157,8 +158,8 @@ modules:
         dest: vendor/github.com/mitchellh/hashstructure/v2
       - type: git
         url: https://github.com/ncruces/zenity
-        tag: v0.8.7
-        commit: ece0ced937a4bb5804a0cee78be9436b12b04266
+        tag: v0.8.8
+        commit: 6899d6b87c8de5d9acb3933d2905cd6e6e6d391b
         dest: vendor/github.com/ncruces/zenity
       - type: git
         url: https://github.com/otiai10/copy
@@ -229,7 +230,7 @@ modules:
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
-        commit: 175b2fd9d664a3f81a8ebc19567a1b82b8dfe07c
+        commit: 5a0f0661e09d84ea03c398ac6f55547b0fac897e
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/tools

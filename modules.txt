@@ -65,7 +65,7 @@ github.com/google/licenseclassifier/stringclassifier
 github.com/google/licenseclassifier/stringclassifier/internal/pq
 github.com/google/licenseclassifier/stringclassifier/searchset
 github.com/google/licenseclassifier/stringclassifier/searchset/tokenizer
-# github.com/hajimehoshi/ebiten/v2 v2.3.4 => github.com/divVerent/ebiten/v2 v2.3.3-0.20220517135915-073c6f4f13b7
+# github.com/hajimehoshi/ebiten/v2 v2.3.5
 ## explicit; go 1.15
 github.com/hajimehoshi/ebiten/v2
 github.com/hajimehoshi/ebiten/v2/audio
@@ -111,7 +111,7 @@ github.com/hajimehoshi/ebiten/v2/internal/thread
 github.com/hajimehoshi/ebiten/v2/internal/ui
 github.com/hajimehoshi/ebiten/v2/internal/vibrate
 github.com/hajimehoshi/ebiten/v2/text
-# github.com/hajimehoshi/oto/v2 v2.2.0-alpha.3
+# github.com/hajimehoshi/oto/v2 v2.2.0-alpha.4
 ## explicit; go 1.14
 github.com/hajimehoshi/oto/v2
 github.com/hajimehoshi/oto/v2/internal/oboe
@@ -148,9 +148,10 @@ github.com/mitchellh/go-homedir
 # github.com/mitchellh/hashstructure/v2 v2.0.2
 ## explicit; go 1.14
 github.com/mitchellh/hashstructure/v2
-# github.com/ncruces/zenity v0.8.7
+# github.com/ncruces/zenity v0.8.8
 ## explicit; go 1.17
 github.com/ncruces/zenity
+github.com/ncruces/zenity/internal/win
 github.com/ncruces/zenity/internal/zenutil
 # github.com/otiai10/copy v1.6.0
 ## explicit; go 1.14
@@ -244,7 +245,7 @@ golang.org/x/net/proxy
 # golang.org/x/sync v0.0.0-20220601150217-0de741cfad7f
 ## explicit
 golang.org/x/sync/errgroup
-# golang.org/x/sys v0.0.0-20220622161953-175b2fd9d664
+# golang.org/x/sys v0.0.0-20220708085239-5a0f0661e09d
 ## explicit; go 1.17
 golang.org/x/sys/cpu
 golang.org/x/sys/execabs
@@ -322,4 +323,3 @@ gopkg.in/src-d/go-git.v4/utils/merkletrie/noder
 # gopkg.in/warnings.v0 v0.1.2
 ## explicit
 gopkg.in/warnings.v0
-# github.com/hajimehoshi/ebiten/v2 => github.com/divVerent/ebiten/v2 v2.3.3-0.20220517135915-073c6f4f13b7
