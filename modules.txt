@@ -27,7 +27,7 @@ github.com/emirpasic/gods/utils
 # github.com/fardog/tmx v0.0.0-20210504210836-02c45f261672
 ## explicit
 github.com/fardog/tmx
-# github.com/go-gl/glfw/v3.3/glfw v0.0.0-20220622232848-a6c407ee30a0
+# github.com/go-gl/glfw/v3.3/glfw v0.0.0-20220712193148-63cf1f4ef61f
 ## explicit; go 1.10
 github.com/go-gl/glfw/v3.3/glfw
 github.com/go-gl/glfw/v3.3/glfw/glfw/deps
@@ -65,7 +65,7 @@ github.com/google/licenseclassifier/stringclassifier
 github.com/google/licenseclassifier/stringclassifier/internal/pq
 github.com/google/licenseclassifier/stringclassifier/searchset
 github.com/google/licenseclassifier/stringclassifier/searchset/tokenizer
-# github.com/hajimehoshi/ebiten/v2 v2.3.5
+# github.com/hajimehoshi/ebiten/v2 v2.3.6
 ## explicit; go 1.15
 github.com/hajimehoshi/ebiten/v2
 github.com/hajimehoshi/ebiten/v2/audio
@@ -148,7 +148,7 @@ github.com/mitchellh/go-homedir
 # github.com/mitchellh/hashstructure/v2 v2.0.2
 ## explicit; go 1.14
 github.com/mitchellh/hashstructure/v2
-# github.com/ncruces/zenity v0.8.8
+# github.com/ncruces/zenity v0.8.9
 ## explicit; go 1.17
 github.com/ncruces/zenity
 github.com/ncruces/zenity/internal/win
@@ -245,7 +245,7 @@ golang.org/x/net/proxy
 # golang.org/x/sync v0.0.0-20220601150217-0de741cfad7f
 ## explicit
 golang.org/x/sync/errgroup
-# golang.org/x/sys v0.0.0-20220708085239-5a0f0661e09d
+# golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8
 ## explicit; go 1.17
 golang.org/x/sys/cpu
 golang.org/x/sys/execabs
