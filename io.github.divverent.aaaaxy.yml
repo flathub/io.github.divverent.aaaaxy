@@ -33,9 +33,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.2.217
+        tag: v1.2.229
         # --- REV GOES HERE ---
-        commit: f2749b0bfa963c0c0af5710a008a0c9ba03daccc
+        commit: ec46227b82a21ea777e1d66cdb82157fa7e866ac
       - type: file
         path: modules.txt
         dest: vendor
@@ -70,7 +70,7 @@ modules:
         dest: vendor/github.com/fardog/tmx
       - type: git
         url: https://github.com/go-gl/glfw
-        commit: 63cf1f4ef61f7a073c9362998ac69071f3372718
+        commit: 55e207c401ad9f8f19b7719272b98fed91b6e091
         dest: vendor/github.com/go-gl/glfw
       - type: git
         url: https://github.com/gofrs/flock
@@ -99,9 +99,9 @@ modules:
         commit: 3043a050f148a588e7e0c84dce27579dfe17fd2d
         dest: vendor/github.com/google/licenseclassifier
       - type: git
-        url: https://github.com/hajimehoshi/ebiten
-        tag: v2.3.7
-        commit: bcb020627d9f4bbd8990a48491ef19be185966b3
+        url: https://github.com/divVerent/ebiten
+        tag: v2.3.7-with-touch-fix
+        commit: 65ce50c6b82927d50a7ba1db51c3f83cd14a63f2
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/hajimehoshi/oto
@@ -230,7 +230,7 @@ modules:
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
-        commit: a90be440212d0ff450b66ce871c8b725fbc60f7c
+        commit: 1c4a2a72c664c42691e45fe3a31510ec5ba13cfb
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/tools
