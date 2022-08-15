@@ -33,9 +33,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.2.238
+        tag: v1.2.265
         # --- REV GOES HERE ---
-        commit: d6e993c19c7575fb7ef1ed3bc02ebd51b43cd0ad
+        commit: d35cc82fde61f5b6f5fcee15b50427db3220c4e8
       - type: file
         path: modules.txt
         dest: vendor
@@ -158,8 +158,8 @@ modules:
         dest: vendor/github.com/mitchellh/hashstructure/v2
       - type: git
         url: https://github.com/ncruces/zenity
-        tag: v0.8.10
-        commit: 62e66e7fbd4b86c6db9829a2698b531f00e9541d
+        tag: v0.9.0
+        commit: 5cde0b4fdb046654d9f06d2f88fcab6a762df8ef
         dest: vendor/github.com/ncruces/zenity
       - type: git
         url: https://github.com/otiai10/copy
@@ -230,7 +230,7 @@ modules:
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
-        commit: 1c4a2a72c664c42691e45fe3a31510ec5ba13cfb
+        commit: fbc7d0a398ab184f5d1050e8035f3b19a3b9003f
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/tools
