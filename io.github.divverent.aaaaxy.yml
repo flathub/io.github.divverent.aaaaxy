@@ -1,6 +1,6 @@
 app-id: io.github.divverent.aaaaxy
 runtime: org.freedesktop.Platform
-runtime-version: '21.08'
+runtime-version: '22.08'
 # Do we need to provide a GL extension somehow?
 sdk: org.freedesktop.Sdk
 sdk-extensions:
