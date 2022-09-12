@@ -33,9 +33,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.2.321
+        tag: v1.2.331
         # --- REV GOES HERE ---
-        commit: 42799fc92e14c1c4b882a0ba394a6c37e5ceffd9
+        commit: 8a1600938498ed4b3e66241f9db58fe135e0b6cd
       - type: file
         path: modules.txt
         dest: vendor
@@ -61,7 +61,7 @@ modules:
         dest: vendor/github.com/dchest/jsmin
       - type: git
         url: https://github.com/ebitengine/purego
-        commit: aeed57cda74433391c1ebcd6c8ce5630cf944056
+        commit: a51c01493ff95eadc4fe7ad2ac00331241a0dcef
         dest: vendor/github.com/ebitengine/purego
       - type: git
         url: https://github.com/emirpasic/gods
@@ -86,8 +86,8 @@ modules:
         dest: vendor/github.com/golang/glog
       - type: git
         url: https://github.com/google/go-cmp
-        tag: v0.5.8
-        commit: f144a35ed4ac538fae93fa3783175108738f71b9
+        tag: v0.5.9
+        commit: a97318bf6562f2ed2632c5f985db51b1bc5bdcd0
         dest: vendor/github.com/google/go-cmp
       - type: git
         url: https://github.com/google/go-licenses
@@ -99,8 +99,8 @@ modules:
         dest: vendor/github.com/google/licenseclassifier
       - type: git
         url: https://github.com/hajimehoshi/ebiten
-        tag: v2.4.1
-        commit: ba19f06ede4a90728416b3dabbcb4dfa861074ef
+        tag: v2.4.2
+        commit: 0ae4002750e3fc0c08796662da6fe39dc8376bd5
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/hajimehoshi/file2byteslice
@@ -109,7 +109,8 @@ modules:
         dest: vendor/github.com/hajimehoshi/file2byteslice
       - type: git
         url: https://github.com/hajimehoshi/oto
-        commit: aa0e3615d063fc1367fa6df91c907b06327b9a6d
+        tag: v2.4.0-alpha.2
+        commit: 595bc3caefb1f6baf1ea60850a5007cae6770b14
         dest: vendor/github.com/hajimehoshi/oto/v2
       - type: git
         url: https://github.com/inconshreveable/mousetrap
@@ -229,7 +230,7 @@ modules:
         dest: vendor/golang.org/x/net
       - type: git
         url: https://go.googlesource.com/sys
-        commit: d48e67d0026122f55f22f0df396e7a51d2b20fb9
+        commit: aba9fc2a8ff2c9439446386f616b860442f0cf9a
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/tools
