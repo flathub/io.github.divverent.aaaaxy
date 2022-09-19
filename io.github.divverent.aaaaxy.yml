@@ -33,9 +33,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.2.331
+        tag: v1.2.336
         # --- REV GOES HERE ---
-        commit: 8a1600938498ed4b3e66241f9db58fe135e0b6cd
+        commit: cfb71b1556ddaf7dbd01cd549e139968f49178b8
       - type: file
         path: modules.txt
         dest: vendor
@@ -61,7 +61,8 @@ modules:
         dest: vendor/github.com/dchest/jsmin
       - type: git
         url: https://github.com/ebitengine/purego
-        commit: a51c01493ff95eadc4fe7ad2ac00331241a0dcef
+        tag: v0.1.0
+        commit: 786906f6efce4b8eb8908e711db741a99bada2ff
         dest: vendor/github.com/ebitengine/purego
       - type: git
         url: https://github.com/emirpasic/gods
@@ -98,9 +99,9 @@ modules:
         commit: 3043a050f148a588e7e0c84dce27579dfe17fd2d
         dest: vendor/github.com/google/licenseclassifier
       - type: git
-        url: https://github.com/hajimehoshi/ebiten
-        tag: v2.4.2
-        commit: 0ae4002750e3fc0c08796662da6fe39dc8376bd5
+        url: https://github.com/divVerent/ebiten
+        tag: v2.4.3-with-47de8027b9bef42a1f0bfb52eb2962126bad8092
+        commit: da0ac9000f60536a2eb19189aa0f0d92e18a1e5e
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/hajimehoshi/file2byteslice
@@ -109,8 +110,8 @@ modules:
         dest: vendor/github.com/hajimehoshi/file2byteslice
       - type: git
         url: https://github.com/hajimehoshi/oto
-        tag: v2.4.0-alpha.2
-        commit: 595bc3caefb1f6baf1ea60850a5007cae6770b14
+        tag: v2.4.0-alpha.3
+        commit: d5fe115b2512293ca2b342bba094c3996e037a1f
         dest: vendor/github.com/hajimehoshi/oto/v2
       - type: git
         url: https://github.com/inconshreveable/mousetrap
@@ -230,7 +231,7 @@ modules:
         dest: vendor/golang.org/x/net
       - type: git
         url: https://go.googlesource.com/sys
-        commit: aba9fc2a8ff2c9439446386f616b860442f0cf9a
+        commit: 7b5979e65e419b0715343c5b3ad0062b2a64674a
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/tools
