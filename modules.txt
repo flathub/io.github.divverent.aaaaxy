@@ -69,7 +69,7 @@ github.com/google/licenseclassifier/stringclassifier
 github.com/google/licenseclassifier/stringclassifier/internal/pq
 github.com/google/licenseclassifier/stringclassifier/searchset
 github.com/google/licenseclassifier/stringclassifier/searchset/tokenizer
-# github.com/hajimehoshi/ebiten/v2 v2.4.3 => github.com/divVerent/ebiten/v2 v2.4.3-with-47de8027b9bef42a1f0bfb52eb2962126bad8092
+# github.com/hajimehoshi/ebiten/v2 v2.4.3
 ## explicit; go 1.15
 github.com/hajimehoshi/ebiten/v2
 github.com/hajimehoshi/ebiten/v2/audio
@@ -329,4 +329,3 @@ gopkg.in/src-d/go-git.v4/utils/merkletrie/noder
 # gopkg.in/warnings.v0 v0.1.2
 ## explicit
 gopkg.in/warnings.v0
-# github.com/hajimehoshi/ebiten/v2 => github.com/divVerent/ebiten/v2 v2.4.3-with-47de8027b9bef42a1f0bfb52eb2962126bad8092
