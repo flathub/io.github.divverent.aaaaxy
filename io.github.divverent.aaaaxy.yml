@@ -33,17 +33,17 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.2.356
+        tag: v1.2.367
         # --- REV GOES HERE ---
-        commit: d26a9c3425a57c8c2319536292bd50a2bb9691e1
+        commit: 1e38addb8f8671ca314b6409e83735e22289da5f
       - type: file
         path: modules.txt
         dest: vendor
       # --- GO MODULES START HERE, USE go-vendor-to-flatpak-yml.sh TO UPDATE ---
       - type: git
         url: https://github.com/Microsoft/go-winio
-        tag: v0.5.2
-        commit: dfd7da8f92a382999d77b5d9cfe8cc6bec1894c6
+        tag: v0.6.0
+        commit: 376b2013fee695d54f9b21db81716426a8a736d9
         dest: vendor/github.com/Microsoft/go-winio
       - type: git
         url: https://github.com/adrg/xdg
@@ -100,8 +100,8 @@ modules:
         dest: vendor/github.com/google/licenseclassifier
       - type: git
         url: https://github.com/hajimehoshi/ebiten
-        tag: v2.4.3
-        commit: 3e6d97a19fdab73700f611643b3609df9d3289ed
+        tag: v2.4.7
+        commit: 2b261c63149abebb81b4588e361472618b3a8d4c
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/hajimehoshi/file2byteslice
@@ -110,8 +110,8 @@ modules:
         dest: vendor/github.com/hajimehoshi/file2byteslice
       - type: git
         url: https://github.com/hajimehoshi/oto
-        tag: v2.4.0-alpha.3
-        commit: d5fe115b2512293ca2b342bba094c3996e037a1f
+        tag: v2.4.0-alpha.4
+        commit: 78d23c4b3aff78e9f9425d3ea7298b2bfc03d0e0
         dest: vendor/github.com/hajimehoshi/oto/v2
       - type: git
         url: https://github.com/inconshreveable/mousetrap
@@ -219,7 +219,7 @@ modules:
         dest: vendor/golang.org/x/image
       - type: git
         url: https://go.googlesource.com/mobile
-        commit: aaac322e2105241d1ac9a25b03d4e916ac6e42c6
+        commit: c746ac2283036723f4328ece8b39b84e428e4cc0
         dest: vendor/golang.org/x/mobile
       - type: git
         url: https://go.googlesource.com/mod
@@ -231,7 +231,7 @@ modules:
         dest: vendor/golang.org/x/net
       - type: git
         url: https://go.googlesource.com/sys
-        commit: 7b5979e65e419b0715343c5b3ad0062b2a64674a
+        commit: 95e765b1cc43ac521bd4fd501e00774e34401449
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/tools
