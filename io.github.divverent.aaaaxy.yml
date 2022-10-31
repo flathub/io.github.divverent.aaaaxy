@@ -1,6 +1,6 @@
 app-id: io.github.divverent.aaaaxy
 runtime: org.freedesktop.Platform
-runtime-version: '21.08'
+runtime-version: '22.08'
 # Do we need to provide a GL extension somehow?
 sdk: org.freedesktop.Sdk
 sdk-extensions:
@@ -33,9 +33,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.2.367
+        tag: v1.2.372
         # --- REV GOES HERE ---
-        commit: 1e38addb8f8671ca314b6409e83735e22289da5f
+        commit: 6e684e4543fdf9ad292b9770ce2ffd34c269dc7e
       - type: file
         path: modules.txt
         dest: vendor
@@ -75,7 +75,7 @@ modules:
         dest: vendor/github.com/fardog/tmx
       - type: git
         url: https://github.com/go-gl/glfw
-        commit: 55e207c401ad9f8f19b7719272b98fed91b6e091
+        commit: 93cebf72946bdd130bbda47817ad53315d776ca7
         dest: vendor/github.com/go-gl/glfw
       - type: git
         url: https://github.com/golang/freetype
@@ -100,8 +100,8 @@ modules:
         dest: vendor/github.com/google/licenseclassifier
       - type: git
         url: https://github.com/hajimehoshi/ebiten
-        tag: v2.4.7
-        commit: 2b261c63149abebb81b4588e361472618b3a8d4c
+        tag: v2.4.9
+        commit: 651a43c07634772645f7d3fb42bb981a11e99dad
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/hajimehoshi/file2byteslice
@@ -207,7 +207,8 @@ modules:
         dest: vendor/github.com/xanzy/ssh-agent
       - type: git
         url: https://go.googlesource.com/crypto
-        commit: 089bfa5675191fd96a44247682f76ebca03d7916
+        tag: v0.1.0
+        commit: 642fcc37f5043eadb2509c84b2769e729e7d27ef
         dest: vendor/golang.org/x/crypto
       - type: git
         url: https://go.googlesource.com/exp
@@ -215,28 +216,32 @@ modules:
         dest: vendor/golang.org/x/exp
       - type: git
         url: https://go.googlesource.com/image
-        commit: e7cb96979f695f92bdde7ac40937ef6865b33503
+        tag: v0.1.0
+        commit: ffcb3fe7d1bf4ed2e01a95a552bb3b7f5dab24d1
         dest: vendor/golang.org/x/image
       - type: git
         url: https://go.googlesource.com/mobile
-        commit: c746ac2283036723f4328ece8b39b84e428e4cc0
+        commit: b36e6246172ede3fc3cf20fcc880cecc7a0e4f5b
         dest: vendor/golang.org/x/mobile
       - type: git
         url: https://go.googlesource.com/mod
-        commit: 86c51ed26bb44749b7d60a57bab0e7524656fe8a
+        tag: v0.6.0
+        commit: b3066c3a67d8fdd8d86771626cb76efaac967f4a
         dest: vendor/golang.org/x/mod
       - type: git
         url: https://go.googlesource.com/net
-        commit: a158d28d115bfbcc1583374c5ae12ba6415bb93e
+        tag: v0.1.0
+        commit: 1568cf9b43eddada579c44f99d04fe42a1f58dac
         dest: vendor/golang.org/x/net
       - type: git
         url: https://go.googlesource.com/sys
+        tag: v0.1.0
         commit: 95e765b1cc43ac521bd4fd501e00774e34401449
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/tools
-        tag: v0.1.12
-        commit: b3b5c13b291f9653da6f31b95db100a2e26bd186
+        tag: v0.2.0
+        commit: f112c43328372460f7ac5bc951711609e22b01cc
         dest: vendor/golang.org/x/tools
       - type: git
         url: https://gopkg.in/src-d/go-billy.v4
