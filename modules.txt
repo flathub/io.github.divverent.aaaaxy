@@ -70,7 +70,7 @@ github.com/google/licenseclassifier/stringclassifier
 github.com/google/licenseclassifier/stringclassifier/internal/pq
 github.com/google/licenseclassifier/stringclassifier/searchset
 github.com/google/licenseclassifier/stringclassifier/searchset/tokenizer
-# github.com/hajimehoshi/ebiten/v2 v2.4.13
+# github.com/hajimehoshi/ebiten/v2 v2.4.15
 ## explicit; go 1.15
 github.com/hajimehoshi/ebiten/v2
 github.com/hajimehoshi/ebiten/v2/audio
@@ -122,7 +122,7 @@ github.com/hajimehoshi/ebiten/v2/vector
 # github.com/hajimehoshi/file2byteslice v1.0.0
 ## explicit; go 1.12
 github.com/hajimehoshi/file2byteslice
-# github.com/hajimehoshi/oto/v2 v2.4.0-alpha.7
+# github.com/hajimehoshi/oto/v2 v2.4.0-alpha.8
 ## explicit; go 1.18
 github.com/hajimehoshi/oto/v2
 github.com/hajimehoshi/oto/v2/internal/mux
@@ -133,6 +133,9 @@ github.com/inconshreveable/mousetrap
 # github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99
 ## explicit
 github.com/jbenet/go-context/io
+# github.com/jeandeaual/go-locale v0.0.0-20220711133428-7de61946b173
+## explicit; go 1.14
+github.com/jeandeaual/go-locale
 # github.com/jezek/xgb v1.1.0
 ## explicit; go 1.11
 github.com/jezek/xgb
@@ -151,6 +154,10 @@ github.com/josephspurrier/goversioninfo
 # github.com/kevinburke/ssh_config v0.0.0-20190725054713-01f96b0aa0cd
 ## explicit
 github.com/kevinburke/ssh_config
+# github.com/leonelquinteros/gotext v1.5.0
+## explicit; go 1.13
+github.com/leonelquinteros/gotext
+github.com/leonelquinteros/gotext/plurals
 # github.com/lucasb-eyer/go-colorful v1.2.0
 ## explicit; go 1.12
 github.com/lucasb-eyer/go-colorful
@@ -160,7 +167,7 @@ github.com/mitchellh/go-homedir
 # github.com/mitchellh/hashstructure/v2 v2.0.2
 ## explicit; go 1.14
 github.com/mitchellh/hashstructure/v2
-# github.com/ncruces/zenity v0.9.3
+# github.com/ncruces/zenity v0.10.4
 ## explicit; go 1.18
 github.com/ncruces/zenity
 github.com/ncruces/zenity/internal/win
@@ -168,8 +175,6 @@ github.com/ncruces/zenity/internal/zenutil
 # github.com/otiai10/copy v1.6.0
 ## explicit; go 1.14
 github.com/otiai10/copy
-# github.com/pkg/errors v0.9.1
-## explicit
 # github.com/randall77/makefat v0.0.0-20210315173500-7ddd0e42c844
 ## explicit; go 1.13
 github.com/randall77/makefat
@@ -221,7 +226,7 @@ golang.org/x/exp/shiny/driver/internal/lifecycler
 golang.org/x/exp/shiny/driver/internal/win32
 golang.org/x/exp/shiny/driver/internal/x11key
 golang.org/x/exp/shiny/screen
-# golang.org/x/image v0.1.0
+# golang.org/x/image v0.2.0
 ## explicit; go 1.12
 golang.org/x/image/colornames
 golang.org/x/image/font
@@ -249,19 +254,25 @@ golang.org/x/mobile/internal/mobileinit
 # golang.org/x/mod v0.7.0
 ## explicit; go 1.17
 golang.org/x/mod/semver
-# golang.org/x/net v0.2.0
+# golang.org/x/net v0.3.0
 ## explicit; go 1.17
 golang.org/x/net/context
 golang.org/x/net/internal/socks
 golang.org/x/net/proxy
-# golang.org/x/sys v0.2.0
+# golang.org/x/sys v0.3.0
 ## explicit; go 1.17
 golang.org/x/sys/cpu
 golang.org/x/sys/execabs
 golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/unix
 golang.org/x/sys/windows
-# golang.org/x/tools v0.3.0
+# golang.org/x/text v0.5.0
+## explicit; go 1.17
+golang.org/x/text/internal/language
+golang.org/x/text/internal/language/compact
+golang.org/x/text/internal/tag
+golang.org/x/text/language
+# golang.org/x/tools v0.4.0
 ## explicit; go 1.18
 golang.org/x/tools/cmd/stringer
 golang.org/x/tools/go/gcexportdata
@@ -273,7 +284,6 @@ golang.org/x/tools/internal/event/keys
 golang.org/x/tools/internal/event/label
 golang.org/x/tools/internal/gcimporter
 golang.org/x/tools/internal/gocommand
-golang.org/x/tools/internal/goroot
 golang.org/x/tools/internal/packagesinternal
 golang.org/x/tools/internal/pkgbits
 golang.org/x/tools/internal/typeparams
