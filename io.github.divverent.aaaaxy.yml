@@ -33,9 +33,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.3.186
+        tag: v1.3.219
         # --- REV GOES HERE ---
-        commit: 66ab15a3af7acdf3cbe06cc57f87c5d84b484efe
+        commit: 0fb0cec3cd2504b457a98e35524cfcd2dc741f04
       - type: file
         path: modules.txt
         dest: vendor
@@ -99,8 +99,8 @@ modules:
         dest: vendor/github.com/google/licenseclassifier
       - type: git
         url: https://github.com/hajimehoshi/ebiten
-        tag: v2.4.15
-        commit: b625cc84ce47787df0539b020bab6c6fc0f495b7
+        tag: v2.4.16
+        commit: 8c4b29ed1f493e9c5c9ba714b7d89686d6a16002
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/hajimehoshi/file2byteslice
