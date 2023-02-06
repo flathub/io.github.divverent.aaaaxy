@@ -33,9 +33,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.3.219
+        tag: v1.3.263
         # --- REV GOES HERE ---
-        commit: 0fb0cec3cd2504b457a98e35524cfcd2dc741f04
+        commit: fe3e0f5e72d2c54d5dc457dc13f3ddbd4f8235cd
       - type: file
         path: modules.txt
         dest: vendor
@@ -77,10 +77,6 @@ modules:
         commit: 93cebf72946bdd130bbda47817ad53315d776ca7
         dest: vendor/github.com/go-gl/glfw
       - type: git
-        url: https://github.com/golang/freetype
-        commit: e2365dfdc4a05e4b8299a783240d4a7d5a65d4e4
-        dest: vendor/github.com/golang/freetype
-      - type: git
         url: https://github.com/golang/glog
         commit: 23def4e6c14b4da8ac2ed8007337bc5eb5007998
         dest: vendor/github.com/golang/glog
@@ -109,8 +105,8 @@ modules:
         dest: vendor/github.com/hajimehoshi/file2byteslice
       - type: git
         url: https://github.com/hajimehoshi/oto
-        tag: v2.4.0-alpha.11
-        commit: 94f51d99615446ccafb485ddd0cf4585c4149084
+        tag: v2.4.0-alpha.12
+        commit: 774596e8fdf519b42d389d347e8299c6f186c4a9
         dest: vendor/github.com/hajimehoshi/oto/v2
       - type: git
         url: https://github.com/inconshreveable/mousetrap
