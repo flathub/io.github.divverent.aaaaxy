@@ -33,9 +33,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.3.367
+        tag: v1.3.372
         # --- REV GOES HERE ---
-        commit: 0cc7c330e87136f2a45ae0caa84d80cab83cd6b6
+        commit: ad5a98b87ede31522b03a67b02a57450517cf348
       - type: file
         path: modules.txt
         dest: vendor
@@ -61,8 +61,8 @@ modules:
         dest: vendor/github.com/dchest/jsmin
       - type: git
         url: https://github.com/ebitengine/purego
-        tag: v0.2.0
-        commit: 0c858ac9f9ff921a4d24b833c0354cda7fdafa1b
+        tag: v0.3.0-alpha
+        commit: 0befdc3778764be7c9997dbe0326b2761eeafcd1
         dest: vendor/github.com/ebitengine/purego
       - type: git
         url: https://github.com/emirpasic/gods
@@ -96,13 +96,13 @@ modules:
         dest: vendor/github.com/google/licenseclassifier
       - type: git
         url: https://github.com/divVerent/ebiten
-        tag: v2.5.0-alpha.13-with-b278e5521fc37e3dd9bd1d813aee04d855a36811-and-809ad991c278ef43ed04270847536ad1924d8d57-and-06c141475c0d85d37221c6055345053f54fb1d6c
-        commit: dc0b03de7b82dc1fb229c7e7aa5c0973107bca0f
+        tag: v2.5.0-alpha.14-with-10c1b56e625cdab4f56a8245c56d6efd4fa429ea
+        commit: 9e001db6eccce681c0b3df8a24c81b8aad0cdd41
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/hajimehoshi/oto
-        tag: v2.4.0-alpha.12
-        commit: 774596e8fdf519b42d389d347e8299c6f186c4a9
+        tag: v2.4.0-alpha.13
+        commit: bd76255e9f1ed968698949d703b5df5ebf052390
         dest: vendor/github.com/hajimehoshi/oto/v2
       - type: git
         url: https://github.com/inconshreveable/mousetrap
@@ -229,8 +229,8 @@ modules:
         dest: vendor/golang.org/x/mod
       - type: git
         url: https://go.googlesource.com/net
-        tag: v0.7.0
-        commit: 8e2b117aee74f6b86c207a808b0255de45c0a18a
+        tag: v0.8.0
+        commit: dfa2b5dffd96fb2ae13e7d182501f0bce044a0a4
         dest: vendor/golang.org/x/net
       - type: git
         url: https://go.googlesource.com/sync
@@ -249,8 +249,8 @@ modules:
         dest: vendor/golang.org/x/text
       - type: git
         url: https://go.googlesource.com/tools
-        tag: v0.6.0
-        commit: d0863f03daeff79ab917de5768285bb077f77b20
+        tag: v0.7.0
+        commit: 031fc75960d487b0b15db12fb328676236a3a39c
         dest: vendor/golang.org/x/tools
       - type: git
         url: https://gopkg.in/src-d/go-billy.v4
