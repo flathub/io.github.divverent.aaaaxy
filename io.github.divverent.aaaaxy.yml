@@ -33,9 +33,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.3.372
+        tag: v1.3.393
         # --- REV GOES HERE ---
-        commit: ad5a98b87ede31522b03a67b02a57450517cf348
+        commit: 0a5831017972d6aa000f6c82f7246301af6519a3
       - type: file
         path: modules.txt
         dest: vendor
@@ -61,8 +61,8 @@ modules:
         dest: vendor/github.com/dchest/jsmin
       - type: git
         url: https://github.com/ebitengine/purego
-        tag: v0.3.0-alpha
-        commit: 0befdc3778764be7c9997dbe0326b2761eeafcd1
+        tag: v0.3.1
+        commit: e8cf67ef8a0258337badacb751f6db00a9ea66b2
         dest: vendor/github.com/ebitengine/purego
       - type: git
         url: https://github.com/emirpasic/gods
@@ -95,14 +95,14 @@ modules:
         commit: 3043a050f148a588e7e0c84dce27579dfe17fd2d
         dest: vendor/github.com/google/licenseclassifier
       - type: git
-        url: https://github.com/divVerent/ebiten
-        tag: v2.5.0-alpha.14-with-10c1b56e625cdab4f56a8245c56d6efd4fa429ea
-        commit: 9e001db6eccce681c0b3df8a24c81b8aad0cdd41
+        url: https://github.com/hajimehoshi/ebiten
+        tag: v2.5.0
+        commit: acf05b8d2bd24d6dec20c23ef1b2aff2e3e0b3e2
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/hajimehoshi/oto
-        tag: v2.4.0-alpha.13
-        commit: bd76255e9f1ed968698949d703b5df5ebf052390
+        tag: v2.4.0
+        commit: 97067266a35d83b2c907763454650600dcf39f06
         dest: vendor/github.com/hajimehoshi/oto/v2
       - type: git
         url: https://github.com/inconshreveable/mousetrap
