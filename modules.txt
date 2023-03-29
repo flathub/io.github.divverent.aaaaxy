@@ -17,7 +17,7 @@ github.com/akavel/rsrc/rsrc
 # github.com/dchest/jsmin v0.0.0-20220218165748-59f39799265f
 ## explicit
 github.com/dchest/jsmin
-# github.com/ebitengine/purego v0.3.0-alpha
+# github.com/ebitengine/purego v0.3.1
 ## explicit; go 1.18
 github.com/ebitengine/purego
 github.com/ebitengine/purego/internal/abi
@@ -67,7 +67,7 @@ github.com/google/licenseclassifier/stringclassifier
 github.com/google/licenseclassifier/stringclassifier/internal/pq
 github.com/google/licenseclassifier/stringclassifier/searchset
 github.com/google/licenseclassifier/stringclassifier/searchset/tokenizer
-# github.com/hajimehoshi/ebiten/v2 v2.5.0-alpha.14 => github.com/divVerent/ebiten/v2 v2.5.0-alpha.14-with-10c1b56e625cdab4f56a8245c56d6efd4fa429ea
+# github.com/hajimehoshi/ebiten/v2 v2.5.0
 ## explicit; go 1.18
 github.com/hajimehoshi/ebiten/v2
 github.com/hajimehoshi/ebiten/v2/audio
@@ -116,7 +116,7 @@ github.com/hajimehoshi/ebiten/v2/mobile
 github.com/hajimehoshi/ebiten/v2/mobile/ebitenmobileview
 github.com/hajimehoshi/ebiten/v2/text
 github.com/hajimehoshi/ebiten/v2/vector
-# github.com/hajimehoshi/oto/v2 v2.4.0-alpha.13
+# github.com/hajimehoshi/oto/v2 v2.4.0
 ## explicit; go 1.18
 github.com/hajimehoshi/oto/v2
 github.com/hajimehoshi/oto/v2/internal/mux
@@ -351,4 +351,3 @@ gopkg.in/src-d/go-git.v4/utils/merkletrie/noder
 # gopkg.in/warnings.v0 v0.1.2
 ## explicit
 gopkg.in/warnings.v0
-# github.com/hajimehoshi/ebiten/v2 => github.com/divVerent/ebiten/v2 v2.5.0-alpha.14-with-10c1b56e625cdab4f56a8245c56d6efd4fa429ea
