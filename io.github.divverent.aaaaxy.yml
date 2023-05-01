@@ -33,17 +33,17 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.3.469
+        tag: v1.3.511+flatpak-1
         # --- REV GOES HERE ---
-        commit: 086a2e737e9ab2750e5545daf232015a81181f86
+        commit: bdb663e1e1c5f13a7e3b1151f12045daf9119130
       - type: file
         path: modules.txt
         dest: vendor
       # --- GO MODULES START HERE, USE go-vendor-to-flatpak-yml.sh TO UPDATE ---
       - type: git
         url: https://github.com/Microsoft/go-winio
-        tag: v0.6.0
-        commit: 376b2013fee695d54f9b21db81716426a8a736d9
+        tag: v0.6.1
+        commit: 070c828abb873da9e71c7247740253b50f7cf049
         dest: vendor/github.com/Microsoft/go-winio
       - type: git
         url: https://github.com/adrg/xdg
@@ -61,8 +61,8 @@ modules:
         dest: vendor/github.com/dchest/jsmin
       - type: git
         url: https://github.com/ebitengine/purego
-        tag: v0.4.0-alpha.2
-        commit: e1459079498f0551770af3cedc2903b3f3e3c7b2
+        tag: v0.4.0-alpha.4
+        commit: d888bce98506955251c6b11981556f2cf8ac2ff0
         dest: vendor/github.com/ebitengine/purego
       - type: git
         url: https://github.com/emirpasic/gods
@@ -96,8 +96,8 @@ modules:
         dest: vendor/github.com/google/licenseclassifier
       - type: git
         url: https://github.com/divVerent/ebiten
-        tag: v2.5.1-with-574925cf7a72deaf73be4c481348a7a44f7b7e19-and-cc247962703eba99eae732876496375191f16cbe
-        commit: af0411f6e81d59926ebd0a501d2d8a2b17ae3e33
+        tag: v2.5.3-with-574925cf7a72deaf73be4c481348a7a44f7b7e19-and-cc247962703eba99eae732876496375191f16cbe
+        commit: 1b73977a30a88e761297bd243389a76dad2a5094
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/hajimehoshi/oto
@@ -162,8 +162,8 @@ modules:
         dest: vendor/github.com/mitchellh/hashstructure/v2
       - type: git
         url: https://github.com/ncruces/zenity
-        tag: v0.10.6
-        commit: 43c39c3830e87b359e39e5584fb9b4db988a56d1
+        tag: v0.10.8
+        commit: ee60339b2dd4cb5b1c1f9a5b2401fff962ca5918
         dest: vendor/github.com/ncruces/zenity
       - type: git
         url: https://github.com/otiai10/copy
@@ -219,7 +219,7 @@ modules:
         dest: vendor/golang.org/x/image
       - type: git
         url: https://go.googlesource.com/mobile
-        commit: e0f57694e12c72b67ceffd119827cbea8f0840cc
+        commit: e8d11dd0ba418c197516129aa6810a4ce81dc365
         dest: vendor/golang.org/x/mobile
       - type: git
         url: https://go.googlesource.com/mod
