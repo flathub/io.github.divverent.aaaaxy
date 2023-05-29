@@ -22,6 +22,7 @@ modules:
     build-commands:
       - |
         . /usr/lib/sdk/golang/enable.sh
+        export ADVZIP=:  # Not available on Flatpak SDK.
         AAAAXY_BUILD_USE_VERSION_FILE=true make BUILDTYPE=release BINARY=/app/bin/aaaaxy
         mkdir -p /app/share/icons/hicolor/128x128/apps
         cp aaaaxy.png /app/share/icons/hicolor/128x128/apps/io.github.divverent.aaaaxy.png
@@ -33,9 +34,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.3.538
+        tag: v1.4.2
         # --- REV GOES HERE ---
-        commit: c5ce6cc4e50e206eea49c7999375c3d459d4dbef
+        commit: c875161f00d631710bf5f757cb602203d1664543
       - type: file
         path: modules.txt
         dest: vendor
@@ -96,8 +97,8 @@ modules:
         dest: vendor/github.com/google/licenseclassifier
       - type: git
         url: https://github.com/divVerent/ebiten
-        tag: v2.5.3-with-574925cf7a72deaf73be4c481348a7a44f7b7e19-and-cc247962703eba99eae732876496375191f16cbe
-        commit: 1b73977a30a88e761297bd243389a76dad2a5094
+        tag: v2.5.4-with-574925cf7a72deaf73be4c481348a7a44f7b7e19-and-cc247962703eba99eae732876496375191f16cbe
+        commit: 8eb71a737cf47a6f2046c991afbdde47832166a7
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/hajimehoshi/oto
@@ -228,18 +229,18 @@ modules:
         dest: vendor/golang.org/x/mod
       - type: git
         url: https://go.googlesource.com/net
-        tag: v0.9.0
-        commit: 694cff8668bac64e0864b552bffc280cd27f21b1
+        tag: v0.10.0
+        commit: daac0cec0cf964a628a29bb4b82940c225b921ed
         dest: vendor/golang.org/x/net
       - type: git
         url: https://go.googlesource.com/sync
-        tag: v0.1.0
-        commit: 8fcdb60fdcc0539c5e357b2308249e4e752147f1
+        tag: v0.2.0
+        commit: 1ea32573ddff2d374504dcc8102328ea790af85f
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
-        tag: v0.7.0
-        commit: 64840c112d2335ed9874114aed48f946e778a769
+        tag: v0.8.0
+        commit: ca59edaa5a761e1d0ea91d6c07b063f85ef24f78
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/text
@@ -248,8 +249,8 @@ modules:
         dest: vendor/golang.org/x/text
       - type: git
         url: https://go.googlesource.com/tools
-        tag: v0.8.0
-        commit: 5ef3193183ecbeb75ee5b12e4d0d76129ec4da3d
+        tag: v0.9.1
+        commit: 4609d79b05b5ef86867bd70209b7077e22d30cb2
         dest: vendor/golang.org/x/tools
       - type: git
         url: https://gopkg.in/src-d/go-billy.v4
