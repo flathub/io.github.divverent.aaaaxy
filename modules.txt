@@ -239,7 +239,7 @@ golang.org/x/image/font/sfnt
 golang.org/x/image/math/f64
 golang.org/x/image/math/fixed
 golang.org/x/image/vector
-# golang.org/x/mobile v0.0.0-20230427221453-e8d11dd0ba41
+# golang.org/x/mobile v0.0.0-20230531173138-3c911d8e3eda
 ## explicit; go 1.17
 golang.org/x/mobile/app
 golang.org/x/mobile/app/internal/callfn
@@ -282,17 +282,17 @@ golang.org/x/text/internal/language/compact
 golang.org/x/text/internal/tag
 golang.org/x/text/language
 golang.org/x/text/transform
-# golang.org/x/tools v0.9.1
+# golang.org/x/tools v0.9.3
 ## explicit; go 1.18
 golang.org/x/tools/cmd/stringer
 golang.org/x/tools/go/gcexportdata
 golang.org/x/tools/go/internal/packagesdriver
 golang.org/x/tools/go/packages
-golang.org/x/tools/go/types/objectpath
 golang.org/x/tools/internal/event
 golang.org/x/tools/internal/event/core
 golang.org/x/tools/internal/event/keys
 golang.org/x/tools/internal/event/label
+golang.org/x/tools/internal/event/tag
 golang.org/x/tools/internal/gcimporter
 golang.org/x/tools/internal/gocommand
 golang.org/x/tools/internal/packagesinternal
