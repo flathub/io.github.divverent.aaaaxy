@@ -34,9 +34,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.4.2
+        tag: v1.4.6
         # --- REV GOES HERE ---
-        commit: c875161f00d631710bf5f757cb602203d1664543
+        commit: 9b24b83bc7ff44655241f7532dad6f7f94662bc3
       - type: file
         path: modules.txt
         dest: vendor
@@ -220,7 +220,7 @@ modules:
         dest: vendor/golang.org/x/image
       - type: git
         url: https://go.googlesource.com/mobile
-        commit: e8d11dd0ba418c197516129aa6810a4ce81dc365
+        commit: 3c911d8e3edae4ddeea7f8a6e3ea9eae74f1a81a
         dest: vendor/golang.org/x/mobile
       - type: git
         url: https://go.googlesource.com/mod
@@ -249,8 +249,8 @@ modules:
         dest: vendor/golang.org/x/text
       - type: git
         url: https://go.googlesource.com/tools
-        tag: v0.9.1
-        commit: 4609d79b05b5ef86867bd70209b7077e22d30cb2
+        tag: v0.9.3
+        commit: 0dda7d614e545bb93966bb1410269b3cd1e65e1d
         dest: vendor/golang.org/x/tools
       - type: git
         url: https://gopkg.in/src-d/go-billy.v4
