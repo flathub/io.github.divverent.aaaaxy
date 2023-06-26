@@ -34,9 +34,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.4.8
+        tag: v1.4.18+flatpak1
         # --- REV GOES HERE ---
-        commit: e421b190262c8b0b675f30261c6a7879db32edeb
+        commit: 769dba1f2eb75bf704eb87ef4186cd4f0ed52084
       - type: file
         path: modules.txt
         dest: vendor
@@ -97,8 +97,8 @@ modules:
         dest: vendor/github.com/google/licenseclassifier
       - type: git
         url: https://github.com/divVerent/ebiten
-        tag: v2.5.4-with-574925cf7a72deaf73be4c481348a7a44f7b7e19-and-cc247962703eba99eae732876496375191f16cbe
-        commit: 8eb71a737cf47a6f2046c991afbdde47832166a7
+        tag: v2.5.4-with-574925cf7a72deaf73be4c481348a7a44f7b7e19-and-cc247962703eba99eae732876496375191f16cbe-and-b96aea70f1559d8a35856bf6a7c814ae168dcce4-and-1789f509e1153944a44651db3c07dc35042b6e85
+        commit: 4810d8de7b6b5c2f66f144e39502e27f5ebbe7e6
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/hajimehoshi/oto
@@ -147,6 +147,11 @@ modules:
         commit: 6f9bcaa9698f6926c1524d7428a1c6223c76c071
         dest: vendor/github.com/leonelquinteros/gotext
       - type: git
+        url: https://github.com/lestrrat-go/strftime
+        tag: v1.0.6
+        commit: 547681d557cd991738423af2350722cb462ba62f
+        dest: vendor/github.com/lestrrat-go/strftime
+      - type: git
         url: https://github.com/lucasb-eyer/go-colorful
         tag: v1.2.0
         commit: d2b05a0d83cca9d610425691c3253d5f36d0ad06
@@ -171,6 +176,11 @@ modules:
         tag: v1.6.0
         commit: edeb9f37d4d0c28725014fcab6635120197932a1
         dest: vendor/github.com/otiai10/copy
+      - type: git
+        url: https://github.com/pkg/errors
+        tag: v0.9.1
+        commit: 614d223910a179a466c1767a985424175c39b465
+        dest: vendor/github.com/pkg/errors
       - type: git
         url: https://github.com/randall77/makefat
         commit: 7ddd0e42c8442593c87c1705a5545099604008e5
