@@ -34,9 +34,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.4.33
+        tag: v1.4.39
         # --- REV GOES HERE ---
-        commit: e59f9e0def72a85c64b63c13b74ae469b861f196
+        commit: 832ed4d88913a69642898b09a09f60d645663eca
       - type: file
         path: modules.txt
         dest: vendor
@@ -62,8 +62,8 @@ modules:
         dest: vendor/github.com/dchest/jsmin
       - type: git
         url: https://github.com/ebitengine/purego
-        tag: v0.4.0-alpha.5
-        commit: b178e7518254895d38a88b4bcdbc02cda4221263
+        tag: v0.4.0
+        commit: 2fcc65d2c10ea16aafa03d9e10bc79d67682d51c
         dest: vendor/github.com/ebitengine/purego
       - type: git
         url: https://github.com/emirpasic/gods
@@ -102,12 +102,13 @@ modules:
         dest: vendor/github.com/hajimehoshi/bitmapfont/v3
       - type: git
         url: https://github.com/divVerent/ebiten
-        tag: v2.5.5-with-574925cf7a72deaf73be4c481348a7a44f7b7e19-and-cc247962703eba99eae732876496375191f16cbe-and-58eb1af1eb88915a726f29ffe9279025f98c9be8
-        commit: ba146a2b535a9a4ff86ddb0f68c8550604b1089e
+        tag: v2.5.6-with-574925cf7a72deaf73be4c481348a7a44f7b7e19-and-cc247962703eba99eae732876496375191f16cbe-and-58eb1af1eb88915a726f29ffe9279025f98c9be8
+        commit: 8114995d392a5088085bf6231ba94706e28d0b04
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/hajimehoshi/oto
-        commit: 31c83ff4311d35cd704044d4d45ea20359104cf2
+        tag: v2.5.0-alpha.1
+        commit: 4a3a4ce34ce17b69fd871831c84022681bd68f44
         dest: vendor/github.com/hajimehoshi/oto/v2
       - type: git
         url: https://github.com/inconshreveable/mousetrap
