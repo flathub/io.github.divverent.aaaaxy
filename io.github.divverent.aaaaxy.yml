@@ -34,9 +34,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.4.39
+        tag: v1.4.42
         # --- REV GOES HERE ---
-        commit: 832ed4d88913a69642898b09a09f60d645663eca
+        commit: 33bdf36951f4dad0a10e289cb7737d34dc2bed16
       - type: file
         path: modules.txt
         dest: vendor
@@ -174,8 +174,8 @@ modules:
         dest: vendor/github.com/mitchellh/hashstructure/v2
       - type: git
         url: https://github.com/ncruces/zenity
-        tag: v0.10.9
-        commit: b90dce112efdbbecb20125799cfe4718c9034c04
+        tag: v0.10.10
+        commit: 39ff6de6ef40ead5a2fed7bca2b8328e49a0f437
         dest: vendor/github.com/ncruces/zenity
       - type: git
         url: https://github.com/otiai10/copy
@@ -231,8 +231,8 @@ modules:
         dest: vendor/golang.org/x/exp
       - type: git
         url: https://go.googlesource.com/image
-        tag: v0.9.0
-        commit: f9550b04a5344792f1e5e5f9fbe8f5e87423f19e
+        tag: v0.11.0
+        commit: 2b687b56714d59d061135c735913a64fe2b70778
         dest: vendor/golang.org/x/image
       - type: git
         url: https://go.googlesource.com/mobile
@@ -255,18 +255,18 @@ modules:
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
-        tag: v0.10.0
-        commit: a1a9c4b846b3a485ba94fede5b50579c7f432759
+        tag: v0.11.0
+        commit: 104d4017fa052d31a480218d213787543bc352d4
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/text
-        tag: v0.11.0
-        commit: e50348080f29449bcd6808c11400b3d45f08b09d
+        tag: v0.12.0
+        commit: fb697c0580b4b6ab0a21ca17e64788b981fb6018
         dest: vendor/golang.org/x/text
       - type: git
         url: https://go.googlesource.com/tools
-        tag: v0.11.0
-        commit: 675bf3c243d60cbba429fad9924e520e8a86074f
+        tag: v0.11.1
+        commit: c16d0be617945651bc69957c71a95eab34e4994c
         dest: vendor/golang.org/x/tools
       - type: git
         url: https://gopkg.in/src-d/go-billy.v4
