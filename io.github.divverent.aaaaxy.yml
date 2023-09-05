@@ -34,9 +34,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.4.42
+        tag: v1.4.45
         # --- REV GOES HERE ---
-        commit: 33bdf36951f4dad0a10e289cb7737d34dc2bed16
+        commit: a73d3e550a292856327036a51c5c7c54944ce193
       - type: file
         path: modules.txt
         dest: vendor
@@ -102,8 +102,8 @@ modules:
         dest: vendor/github.com/hajimehoshi/bitmapfont/v3
       - type: git
         url: https://github.com/divVerent/ebiten
-        tag: v2.5.6-with-574925cf7a72deaf73be4c481348a7a44f7b7e19-and-cc247962703eba99eae732876496375191f16cbe-and-58eb1af1eb88915a726f29ffe9279025f98c9be8
-        commit: 8114995d392a5088085bf6231ba94706e28d0b04
+        tag: v2.5.9-with-574925cf7a72deaf73be4c481348a7a44f7b7e19-and-cc247962703eba99eae732876496375191f16cbe-and-58eb1af1eb88915a726f29ffe9279025f98c9be8
+        commit: 2f1dce33088807a9328f3aca3a1cca4636143752
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/hajimehoshi/oto
@@ -222,8 +222,8 @@ modules:
         dest: vendor/github.com/zachomedia/go-bdf
       - type: git
         url: https://go.googlesource.com/crypto
-        tag: v0.11.0
-        commit: e98487292dcad4efaa6033b245ee014f90d177a2
+        tag: v0.12.0
+        commit: b4ddeeda5bc71549846db71ba23e83ecb26f36ed
         dest: vendor/golang.org/x/crypto
       - type: git
         url: https://go.googlesource.com/exp
@@ -231,12 +231,12 @@ modules:
         dest: vendor/golang.org/x/exp
       - type: git
         url: https://go.googlesource.com/image
-        tag: v0.11.0
-        commit: 2b687b56714d59d061135c735913a64fe2b70778
+        tag: v0.12.0
+        commit: fa10be5a6235278651316f4f0cfc136d80cef613
         dest: vendor/golang.org/x/image
       - type: git
         url: https://go.googlesource.com/mobile
-        commit: 3c911d8e3edae4ddeea7f8a6e3ea9eae74f1a81a
+        commit: e0f57694e12c72b67ceffd119827cbea8f0840cc
         dest: vendor/golang.org/x/mobile
       - type: git
         url: https://go.googlesource.com/mod
@@ -245,8 +245,8 @@ modules:
         dest: vendor/golang.org/x/mod
       - type: git
         url: https://go.googlesource.com/net
-        tag: v0.12.0
-        commit: c73c09c3904ce6a210970374bd1bc507ef1f8cc2
+        tag: v0.14.0
+        commit: c8c0290b421c479315f66c7b68b617ef6e73c668
         dest: vendor/golang.org/x/net
       - type: git
         url: https://go.googlesource.com/sync
@@ -255,18 +255,17 @@ modules:
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
-        tag: v0.11.0
-        commit: 104d4017fa052d31a480218d213787543bc352d4
+        tag: v0.12.0
+        commit: 51546915a63b068d8e385208b9ba6ada4bcb182e
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/text
-        tag: v0.12.0
-        commit: fb697c0580b4b6ab0a21ca17e64788b981fb6018
+        tag: v0.13.0
+        commit: f488e191e67ed95a5b9b7b39024e5a5f5f1ffd02
         dest: vendor/golang.org/x/text
       - type: git
         url: https://go.googlesource.com/tools
-        tag: v0.11.1
-        commit: c16d0be617945651bc69957c71a95eab34e4994c
+        commit: 1517d1a3ba600175b642a4ae8106f0484516d3d9
         dest: vendor/golang.org/x/tools
       - type: git
         url: https://gopkg.in/src-d/go-billy.v4
