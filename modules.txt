@@ -27,7 +27,7 @@ github.com/dchest/jsmin
 github.com/ebitengine/oto/v3
 github.com/ebitengine/oto/v3/internal/mux
 github.com/ebitengine/oto/v3/internal/oboe
-# github.com/ebitengine/purego v0.6.0
+# github.com/ebitengine/purego v0.6.1
 ## explicit; go 1.18
 github.com/ebitengine/purego
 github.com/ebitengine/purego/internal/cgo
@@ -120,7 +120,7 @@ github.com/hajimehoshi/ebiten/v2/vector
 # github.com/inconshreveable/mousetrap v1.1.0
 ## explicit; go 1.18
 github.com/inconshreveable/mousetrap
-# github.com/jeandeaual/go-locale v0.0.0-20240204043739-672d8d016d9a => github.com/jeandeaual/go-locale v0.0.0-20220711133428-7de61946b173
+# github.com/jeandeaual/go-locale v0.0.0-20240223122105-ce5225dcaa49 => github.com/jeandeaual/go-locale v0.0.0-20220711133428-7de61946b173
 ## explicit; go 1.14
 github.com/jeandeaual/go-locale
 # github.com/jezek/xgb v1.1.1
@@ -196,7 +196,7 @@ go.opencensus.io/trace
 go.opencensus.io/trace/internal
 go.opencensus.io/trace/propagation
 go.opencensus.io/trace/tracestate
-# golang.org/x/exp/shiny v0.0.0-20240213143201-ec583247a57a
+# golang.org/x/exp/shiny v0.0.0-20240222234643-814bf88cf225
 ## explicit; go 1.18
 golang.org/x/exp/shiny/driver/gldriver
 golang.org/x/exp/shiny/driver/internal/drawer

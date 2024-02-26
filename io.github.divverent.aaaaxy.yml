@@ -34,9 +34,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.5.6+flatpak-1
+        tag: v1.5.23
         # --- REV GOES HERE ---
-        commit: 5316382d3376462b60aaef7092f9bfeb40145965
+        commit: dc3bc8cf9e0e8981453b7cc3479d870aa829f4db
       - type: file
         path: modules.txt
         dest: vendor
@@ -72,8 +72,8 @@ modules:
         dest: vendor/github.com/ebitengine/oto/v3
       - type: git
         url: https://github.com/ebitengine/purego
-        tag: v0.6.0
-        commit: 32fe07e96bb646d51a536e804ce9cb61b029c1a9
+        tag: v0.6.1
+        commit: 36acdc22cffde0ccc9091c76c8c4ad37938804a3
         dest: vendor/github.com/ebitengine/purego
       - type: git
         url: https://github.com/fardog/tmx
@@ -206,7 +206,7 @@ modules:
         dest: vendor/go.opencensus.io
       - type: git
         url: https://go.googlesource.com/exp
-        commit: ec583247a57a664f30de3335538ddad0c27632fb
+        commit: 814bf88cf225cd422a50435865fb5b9f55b7e59e
         dest: vendor/golang.org/x/exp
       - type: git
         url: https://go.googlesource.com/image
