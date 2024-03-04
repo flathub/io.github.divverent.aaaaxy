@@ -152,7 +152,7 @@ github.com/lucasb-eyer/go-colorful
 # github.com/mitchellh/hashstructure/v2 v2.0.2
 ## explicit; go 1.14
 github.com/mitchellh/hashstructure/v2
-# github.com/ncruces/zenity v0.10.11
+# github.com/ncruces/zenity v0.10.12
 ## explicit; go 1.20
 github.com/ncruces/zenity
 github.com/ncruces/zenity/internal/win
