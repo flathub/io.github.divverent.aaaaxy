@@ -1,6 +1,6 @@
 app-id: io.github.divverent.aaaaxy
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '23.08'
 # Do we need to provide a GL extension somehow?
 sdk: org.freedesktop.Sdk
 sdk-extensions:
@@ -23,7 +23,7 @@ modules:
       - |
         . /usr/lib/sdk/golang/enable.sh
         export ADVZIP=:  # Not available on Flatpak SDK.
-        AAAAXY_BUILD_USE_VERSION_FILE=true make BUILDTYPE=release BINARY=/app/bin/aaaaxy
+        GOTOOLCHAIN=local AAAAXY_BUILD_USE_VERSION_FILE=true make BUILDTYPE=release BINARY=/app/bin/aaaaxy
         mkdir -p /app/share/icons/hicolor/128x128/apps
         cp aaaaxy.png /app/share/icons/hicolor/128x128/apps/io.github.divverent.aaaaxy.png
         mkdir -p /app/share/applications
