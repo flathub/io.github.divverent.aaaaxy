@@ -1,6 +1,6 @@
 app-id: io.github.divverent.aaaaxy
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '23.08'
 # Do we need to provide a GL extension somehow?
 sdk: org.freedesktop.Sdk
 sdk-extensions:
@@ -23,7 +23,7 @@ modules:
       - |
         . /usr/lib/sdk/golang/enable.sh
         export ADVZIP=:  # Not available on Flatpak SDK.
-        AAAAXY_BUILD_USE_VERSION_FILE=true make BUILDTYPE=release BINARY=/app/bin/aaaaxy
+        GOTOOLCHAIN=local AAAAXY_BUILD_USE_VERSION_FILE=true make BUILDTYPE=release BINARY=/app/bin/aaaaxy
         mkdir -p /app/share/icons/hicolor/128x128/apps
         cp aaaaxy.png /app/share/icons/hicolor/128x128/apps/io.github.divverent.aaaaxy.png
         mkdir -p /app/share/applications
@@ -34,9 +34,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.5.129
+        tag: v1.5.139
         # --- REV GOES HERE ---
-        commit: 7e451daaa6a80b2577a35f8d539ec7cf96b4c869
+        commit: a6ecd5a1de8f283476a2a1ba73ab0c8f789aaac1
       - type: file
         path: modules.txt
         dest: vendor
@@ -67,7 +67,7 @@ modules:
         dest: vendor/github.com/dchest/jsmin
       - type: git
         url: https://github.com/ebitengine/gomobile
-        commit: 1771503ff0a8ce70f01a22b641cb1679dc5f80e6
+        commit: e863328498956a2d7136fe08d2fccd7bc2b92d42
         dest: vendor/github.com/ebitengine/gomobile
       - type: git
         url: https://github.com/ebitengine/hideconsole
@@ -123,8 +123,8 @@ modules:
         dest: vendor/github.com/hajimehoshi/bitmapfont/v3
       - type: git
         url: https://github.com/hajimehoshi/ebiten
-        tag: v2.7.2
-        commit: 17d75bfaad3411744797a9a22901d50b77626cae
+        tag: v2.7.4
+        commit: 5df1462dc9a17a6ecbc128a67ca4d2b76e633a2d
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/inconshreveable/mousetrap
@@ -220,8 +220,8 @@ modules:
         dest: vendor/go.opencensus.io
       - type: git
         url: https://go.googlesource.com/image
-        tag: v0.15.0
-        commit: 9e190ae4a3c5edc736fd99ba38be1c9d08ea5320
+        tag: v0.16.0
+        commit: 55c4ab6bd625a2e8433671ec9f9b6c46daddf2cf
         dest: vendor/golang.org/x/image
       - type: git
         url: https://go.googlesource.com/mod
@@ -230,8 +230,8 @@ modules:
         dest: vendor/golang.org/x/mod
       - type: git
         url: https://go.googlesource.com/net
-        tag: v0.24.0
-        commit: 7bbe32058aba7159e4d273710e6f4f1c16c627fb
+        tag: v0.25.0
+        commit: d27919b57fa8dd03198f85ca9e675e1a09babd7d
         dest: vendor/golang.org/x/net
       - type: git
         url: https://go.googlesource.com/sync
@@ -240,18 +240,18 @@ modules:
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
-        tag: v0.19.0
-        commit: cabba82f75d7f55a0657810d02d534745dee5d59
+        tag: v0.20.0
+        commit: 7d69d983c4522784860c781a0d7b80408fdc0cd1
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/text
-        tag: v0.14.0
-        commit: 6c97a165dd661335ff7bce6104a008558123c353
+        tag: v0.15.0
+        commit: 8d533a0c40adec778a7d09ac6c8aa640d3c883f4
         dest: vendor/golang.org/x/text
       - type: git
         url: https://go.googlesource.com/tools
-        tag: v0.20.0
-        commit: 11c692eb24abb64933c12b8f1b1ef7f4768a806e
+        tag: v0.21.0
+        commit: cc29c91ba3acb47c1793da56d919cc40def4ea41
         dest: vendor/golang.org/x/tools
       - type: git
         url: https://github.com/kubernetes/klog
