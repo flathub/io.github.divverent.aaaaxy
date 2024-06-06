@@ -25,7 +25,7 @@ modules:
         export ADVZIP=:  # Not available on Flatpak SDK.
         GOTOOLCHAIN=local AAAAXY_BUILD_USE_VERSION_FILE=true make BUILDTYPE=release BINARY=/app/bin/aaaaxy
         mkdir -p /app/share/icons/hicolor/scalable/apps
-        cp aaaaxy.svg /app/share/icons/hicolor/scalable/apps/io.github.divverent.aaaaxy.png
+        cp aaaaxy.svg /app/share/icons/hicolor/scalable/apps/io.github.divverent.aaaaxy.svg
         mkdir -p /app/share/applications
         sed -e 's,Icon=aaaaxy,Icon=io.github.divverent.aaaaxy,' < aaaaxy.desktop > /app/share/applications/io.github.divverent.aaaaxy.desktop
         mkdir -p /app/share/metainfo
@@ -34,9 +34,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.5.139+flatpak-1
+        tag: v1.5.139+flatpak-2
         # --- REV GOES HERE ---
-        commit: 918b1f1e89d5a091053215700a0d7481bc6b108c
+        commit: 24dcfb1c5f7c23f13b009cceb3b039b09a8a8b74
       - type: file
         path: modules.txt
         dest: vendor
