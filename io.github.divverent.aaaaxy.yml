@@ -34,9 +34,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.5.139+flatpak-2
+        tag: v1.5.139+flatpak-3
         # --- REV GOES HERE ---
-        commit: 24dcfb1c5f7c23f13b009cceb3b039b09a8a8b74
+        commit: 8aa1efbfb5f028fc036f482eb3c14b4443b1e55d
       - type: file
         path: modules.txt
         dest: vendor
