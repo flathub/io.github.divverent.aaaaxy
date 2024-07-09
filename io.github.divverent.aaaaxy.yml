@@ -34,9 +34,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.5.139+flatpak-3
+        tag: v1.5.173
         # --- REV GOES HERE ---
-        commit: 8aa1efbfb5f028fc036f482eb3c14b4443b1e55d
+        commit: c89cd4981873d2438cceed04f4373870c922e036
       - type: file
         path: modules.txt
         dest: vendor
@@ -123,8 +123,8 @@ modules:
         dest: vendor/github.com/hajimehoshi/bitmapfont/v3
       - type: git
         url: https://github.com/hajimehoshi/ebiten
-        tag: v2.7.4
-        commit: 5df1462dc9a17a6ecbc128a67ca4d2b76e633a2d
+        tag: v2.7.7
+        commit: 9988a0c4e935c2c60bad493ddd5e431c536f500b
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/inconshreveable/mousetrap
@@ -157,8 +157,8 @@ modules:
         dest: vendor/github.com/josephspurrier/goversioninfo
       - type: git
         url: https://github.com/leonelquinteros/gotext
-        tag: v1.6.0
-        commit: c7c2135ff28966e781fa825cf1663cd30b86c04d
+        tag: v1.6.1
+        commit: b119ef10753e1ccd7b5c355b90340bd2a584a0b0
         dest: vendor/github.com/leonelquinteros/gotext
       - type: git
         url: https://github.com/lestrrat-go/strftime
@@ -177,8 +177,8 @@ modules:
         dest: vendor/github.com/mitchellh/hashstructure/v2
       - type: git
         url: https://github.com/ncruces/zenity
-        tag: v0.10.12
-        commit: 0af002cc3524ac45defe464a929570b4c815c962
+        tag: v0.10.13
+        commit: e388e6cd8d7ca242c0ef477c04552be339115b02
         dest: vendor/github.com/ncruces/zenity
       - type: git
         url: https://github.com/otiai10/copy
@@ -201,8 +201,8 @@ modules:
         dest: vendor/github.com/sergi/go-diff
       - type: git
         url: https://github.com/spf13/cobra
-        tag: v1.8.0
-        commit: a0a6ae020bb3899ff0276067863e50523f897370
+        tag: v1.8.1
+        commit: e94f6d0dd9a5e5738dca6bce03c4b1207ffbc0ec
         dest: vendor/github.com/spf13/cobra
       - type: git
         url: https://github.com/spf13/pflag
@@ -220,8 +220,8 @@ modules:
         dest: vendor/go.opencensus.io
       - type: git
         url: https://go.googlesource.com/image
-        tag: v0.16.0
-        commit: 55c4ab6bd625a2e8433671ec9f9b6c46daddf2cf
+        tag: v0.18.0
+        commit: 3bbf4a659e56fde394e7214ddd17673223aca672
         dest: vendor/golang.org/x/image
       - type: git
         url: https://go.googlesource.com/mod
@@ -240,18 +240,17 @@ modules:
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
-        tag: v0.20.0
-        commit: 7d69d983c4522784860c781a0d7b80408fdc0cd1
+        tag: v0.22.0
+        commit: faed7ec2641160cebe7fdf3fa6d401d848d2710f
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/text
-        tag: v0.15.0
-        commit: 8d533a0c40adec778a7d09ac6c8aa640d3c883f4
+        tag: v0.16.0
+        commit: 9c2f3a21352d1ff4e47776534e3f334b39ec0183
         dest: vendor/golang.org/x/text
       - type: git
         url: https://go.googlesource.com/tools
-        tag: v0.21.0
-        commit: cc29c91ba3acb47c1793da56d919cc40def4ea41
+        commit: e35e4ccd0d2ddd32df7536574a7fec39296395f0
         dest: vendor/golang.org/x/tools
       - type: git
         url: https://github.com/kubernetes/klog
