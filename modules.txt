@@ -23,8 +23,8 @@ github.com/davecgh/go-spew/spew
 # github.com/dchest/jsmin v0.0.0-20220218165748-59f39799265f
 ## explicit
 github.com/dchest/jsmin
-# github.com/ebitengine/gomobile v0.0.0-20240825043811-96c531f5bd83
-## explicit; go 1.18
+# github.com/ebitengine/gomobile v0.0.0-20241001034212-22433622d8a5
+## explicit; go 1.22.0
 github.com/ebitengine/gomobile/app
 github.com/ebitengine/gomobile/app/internal/callfn
 github.com/ebitengine/gomobile/event/key
@@ -38,12 +38,12 @@ github.com/ebitengine/gomobile/internal/mobileinit
 # github.com/ebitengine/hideconsole v1.0.0
 ## explicit; go 1.18
 github.com/ebitengine/hideconsole
-# github.com/ebitengine/oto/v3 v3.2.0
+# github.com/ebitengine/oto/v3 v3.3.0
 ## explicit; go 1.18
 github.com/ebitengine/oto/v3
 github.com/ebitengine/oto/v3/internal/mux
 github.com/ebitengine/oto/v3/internal/oboe
-# github.com/ebitengine/purego v0.7.1
+# github.com/ebitengine/purego v0.8.0
 ## explicit; go 1.18
 github.com/ebitengine/purego
 github.com/ebitengine/purego/internal/cgo
@@ -56,19 +56,16 @@ github.com/fardog/tmx
 # github.com/go-logr/logr v1.2.0
 ## explicit; go 1.16
 github.com/go-logr/logr
-# github.com/go-text/typesetting v0.1.1
+# github.com/go-text/typesetting v0.2.0
 ## explicit; go 1.17
 github.com/go-text/typesetting/di
 github.com/go-text/typesetting/font
+github.com/go-text/typesetting/font/cff
+github.com/go-text/typesetting/font/cff/interpreter
+github.com/go-text/typesetting/font/opentype
+github.com/go-text/typesetting/font/opentype/tables
 github.com/go-text/typesetting/harfbuzz
 github.com/go-text/typesetting/language
-github.com/go-text/typesetting/opentype/api
-github.com/go-text/typesetting/opentype/api/font
-github.com/go-text/typesetting/opentype/api/font/cff
-github.com/go-text/typesetting/opentype/api/font/cff/interpreter
-github.com/go-text/typesetting/opentype/api/metadata
-github.com/go-text/typesetting/opentype/loader
-github.com/go-text/typesetting/opentype/tables
 github.com/go-text/typesetting/segmenter
 github.com/go-text/typesetting/shaping
 github.com/go-text/typesetting/unicodedata
@@ -93,13 +90,13 @@ github.com/google/go-licenses/licenses
 ## explicit; go 1.16
 github.com/google/licenseclassifier/v2
 github.com/google/licenseclassifier/v2/assets
-# github.com/hajimehoshi/bitmapfont/v3 v3.1.0
+# github.com/hajimehoshi/bitmapfont/v3 v3.2.0
 ## explicit; go 1.16
 github.com/hajimehoshi/bitmapfont/v3
 github.com/hajimehoshi/bitmapfont/v3/internal/bitmap
 github.com/hajimehoshi/bitmapfont/v3/internal/unicode
-# github.com/hajimehoshi/ebiten/v2 v2.7.9 => github.com/divVerent/ebiten/v2 v2.7.9-with-99ffe09b63e0d906cc1f502c24f4d2325e6cc09d
-## explicit; go 1.18
+# github.com/hajimehoshi/ebiten/v2 v2.8.0
+## explicit; go 1.22.0
 github.com/hajimehoshi/ebiten/v2
 github.com/hajimehoshi/ebiten/v2/audio
 github.com/hajimehoshi/ebiten/v2/audio/internal/convert
@@ -127,11 +124,11 @@ github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver/opengl
 github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver/opengl/gl
 github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver/playstation5
 github.com/hajimehoshi/ebiten/v2/internal/hook
-github.com/hajimehoshi/ebiten/v2/internal/jsutil
 github.com/hajimehoshi/ebiten/v2/internal/microsoftgdk
 github.com/hajimehoshi/ebiten/v2/internal/mipmap
 github.com/hajimehoshi/ebiten/v2/internal/packing
 github.com/hajimehoshi/ebiten/v2/internal/png
+github.com/hajimehoshi/ebiten/v2/internal/restorable
 github.com/hajimehoshi/ebiten/v2/internal/shader
 github.com/hajimehoshi/ebiten/v2/internal/shaderir
 github.com/hajimehoshi/ebiten/v2/internal/shaderir/glsl
@@ -166,8 +163,8 @@ github.com/jfreymuth/vorbis
 # github.com/josephspurrier/goversioninfo v1.4.1
 ## explicit; go 1.12
 github.com/josephspurrier/goversioninfo
-# github.com/leonelquinteros/gotext v1.6.1
-## explicit; go 1.13
+# github.com/leonelquinteros/gotext v1.7.0
+## explicit; go 1.16
 github.com/leonelquinteros/gotext
 github.com/leonelquinteros/gotext/plurals
 # github.com/lestrrat-go/strftime v1.1.0
@@ -187,6 +184,13 @@ github.com/ncruces/zenity/internal/zenutil
 # github.com/otiai10/copy v1.14.0
 ## explicit; go 1.18
 github.com/otiai10/copy
+# github.com/pierrec/lz4/v4 v4.1.21
+## explicit; go 1.14
+github.com/pierrec/lz4/v4
+github.com/pierrec/lz4/v4/internal/lz4block
+github.com/pierrec/lz4/v4/internal/lz4errors
+github.com/pierrec/lz4/v4/internal/lz4stream
+github.com/pierrec/lz4/v4/internal/xxh32
 # github.com/randall77/makefat v0.0.0-20210315173500-7ddd0e42c844
 ## explicit; go 1.13
 github.com/randall77/makefat
@@ -220,7 +224,7 @@ go.opencensus.io/trace
 go.opencensus.io/trace/internal
 go.opencensus.io/trace/propagation
 go.opencensus.io/trace/tracestate
-# golang.org/x/image v0.20.0
+# golang.org/x/image v0.21.0
 ## explicit; go 1.18
 golang.org/x/image/ccitt
 golang.org/x/image/colornames
@@ -236,21 +240,21 @@ golang.org/x/image/math/fixed
 golang.org/x/image/tiff
 golang.org/x/image/tiff/lzw
 golang.org/x/image/vector
-# golang.org/x/mod v0.20.0
-## explicit; go 1.18
+# golang.org/x/mod v0.21.0
+## explicit; go 1.22.0
 golang.org/x/mod/semver
-# golang.org/x/net v0.28.0
+# golang.org/x/net v0.29.0
 ## explicit; go 1.18
 golang.org/x/net/context/ctxhttp
 # golang.org/x/sync v0.8.0
 ## explicit; go 1.18
 golang.org/x/sync/errgroup
 golang.org/x/sync/semaphore
-# golang.org/x/sys v0.25.0
+# golang.org/x/sys v0.26.0
 ## explicit; go 1.18
 golang.org/x/sys/unix
 golang.org/x/sys/windows
-# golang.org/x/text v0.18.0
+# golang.org/x/text v0.19.0
 ## explicit; go 1.18
 golang.org/x/text/encoding
 golang.org/x/text/encoding/charmap
@@ -263,8 +267,8 @@ golang.org/x/text/language
 golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
 golang.org/x/text/width
-# golang.org/x/tools v0.24.0
-## explicit; go 1.19
+# golang.org/x/tools v0.25.0
+## explicit; go 1.22.0
 golang.org/x/tools/go/gcexportdata
 golang.org/x/tools/go/packages
 golang.org/x/tools/go/types/objectpath
@@ -289,4 +293,3 @@ k8s.io/klog/v2/internal/clock
 k8s.io/klog/v2/internal/dbg
 k8s.io/klog/v2/internal/serialize
 k8s.io/klog/v2/internal/severity
-# github.com/hajimehoshi/ebiten/v2 => github.com/divVerent/ebiten/v2 v2.7.9-with-99ffe09b63e0d906cc1f502c24f4d2325e6cc09d

@@ -34,9 +34,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.5.202
+        tag: v1.5.208
         # --- REV GOES HERE ---
-        commit: b8540529134d670ecc5e23726b0f3ad3c4ad89f8
+        commit: e8227ee60be0467804128b8afc80feec87eedb81
       - type: file
         path: modules.txt
         dest: vendor
@@ -67,7 +67,7 @@ modules:
         dest: vendor/github.com/dchest/jsmin
       - type: git
         url: https://github.com/ebitengine/gomobile
-        commit: 96c531f5bd8359976ed684068cbced237b1c4a41
+        commit: 22433622d8a52553fcea34f5c17cfde094372f7f
         dest: vendor/github.com/ebitengine/gomobile
       - type: git
         url: https://github.com/ebitengine/hideconsole
@@ -76,13 +76,13 @@ modules:
         dest: vendor/github.com/ebitengine/hideconsole
       - type: git
         url: https://github.com/ebitengine/oto
-        tag: v3.2.0
-        commit: 33b8350e1559e14f3cfd00a4b358ab3c0e7814eb
+        tag: v3.3.0
+        commit: 4a83e9f0b2c00df3ae6d4c99864697355961c966
         dest: vendor/github.com/ebitengine/oto/v3
       - type: git
         url: https://github.com/ebitengine/purego
-        tag: v0.7.1
-        commit: ff2c2cce0d0b43e3ed9743fcd3408cbd9187f835
+        tag: v0.8.0
+        commit: ed3ae3da04bdecca3f7a0c4b0124a9775c71b89a
         dest: vendor/github.com/ebitengine/purego
       - type: git
         url: https://github.com/fardog/tmx
@@ -95,8 +95,8 @@ modules:
         dest: vendor/github.com/go-logr/logr
       - type: git
         url: https://github.com/go-text/typesetting
-        tag: v0.1.1
-        commit: 8caab2027a001bdce7291203c78cc842541d21f7
+        tag: v0.2.0
+        commit: 2c045476f49693cf8a1d8b3d4226c81afd67deb2
         dest: vendor/github.com/go-text/typesetting
       - type: git
         url: https://github.com/golang/groupcache
@@ -118,13 +118,13 @@ modules:
         dest: vendor/github.com/google/licenseclassifier/v2
       - type: git
         url: https://github.com/hajimehoshi/bitmapfont
-        tag: v3.1.0
-        commit: 1827d0dad2b79d065689fde813d45c2123f91289
+        tag: v3.2.0
+        commit: f16c2ddb2ebf72371393b86b941618964cf6301e
         dest: vendor/github.com/hajimehoshi/bitmapfont/v3
       - type: git
-        url: https://github.com/divVerent/ebiten
-        tag: v2.7.9-with-99ffe09b63e0d906cc1f502c24f4d2325e6cc09d
-        commit: e935c23bcdba98b20021c09a87bef6f860eb3984
+        url: https://github.com/hajimehoshi/ebiten
+        tag: v2.8.0
+        commit: 8b0863d32e560e2e6688f4424226fdc9cfeb0fa6
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/inconshreveable/mousetrap
@@ -157,8 +157,8 @@ modules:
         dest: vendor/github.com/josephspurrier/goversioninfo
       - type: git
         url: https://github.com/leonelquinteros/gotext
-        tag: v1.6.1
-        commit: b119ef10753e1ccd7b5c355b90340bd2a584a0b0
+        tag: v1.7.0
+        commit: 9e00748d5b765e0bb9c23464fe379bbe8ffdb518
         dest: vendor/github.com/leonelquinteros/gotext
       - type: git
         url: https://github.com/lestrrat-go/strftime
@@ -185,6 +185,11 @@ modules:
         tag: v1.14.0
         commit: fba066acb0eb6e25d510073787741c0a8b31bf1e
         dest: vendor/github.com/otiai10/copy
+      - type: git
+        url: https://github.com/pierrec/lz4
+        tag: v4.1.21
+        commit: 294e7659e17723306ebf3a44cd7ad2c11f456c37
+        dest: vendor/github.com/pierrec/lz4/v4
       - type: git
         url: https://github.com/randall77/makefat
         commit: 7ddd0e42c8442593c87c1705a5545099604008e5
@@ -215,18 +220,18 @@ modules:
         dest: vendor/go.opencensus.io
       - type: git
         url: https://go.googlesource.com/image
-        tag: v0.20.0
-        commit: c82123aa1384ef5797de16b8c67017758ebaaac6
+        tag: v0.21.0
+        commit: 931781a504d8accf27aaa5863e135f8b960b3aac
         dest: vendor/golang.org/x/image
       - type: git
         url: https://go.googlesource.com/mod
-        tag: v0.20.0
-        commit: bc151c4e8ccc31931553c47d43e41c0efc246096
+        tag: v0.21.0
+        commit: 46a3137daeac7bd5e64dc5971191e4a7207e6d89
         dest: vendor/golang.org/x/mod
       - type: git
         url: https://go.googlesource.com/net
-        tag: v0.28.0
-        commit: 4542a42604cd159f1adb93c58368079ae37b3bf6
+        tag: v0.29.0
+        commit: 35b4abaed97f1df7ee83c075f500e84d8d75d184
         dest: vendor/golang.org/x/net
       - type: git
         url: https://go.googlesource.com/sync
@@ -235,18 +240,18 @@ modules:
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
-        tag: v0.25.0
-        commit: a43b625d3c32b5cd2726d132c8478884ae6cb0dc
+        tag: v0.26.0
+        commit: 23b0dabe630b463b28ffc2871505befb3c5d3b4b
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/text
-        tag: v0.18.0
-        commit: 1e3e9fdab19c86b2b575f3bdb8831eaa3468381f
+        tag: v0.19.0
+        commit: 3043346206dbc748052ef6e130f428f895cd3760
         dest: vendor/golang.org/x/text
       - type: git
         url: https://go.googlesource.com/tools
-        tag: v0.24.0
-        commit: 3057be8f634fdb03e1da1cad9fff3415299ad3ad
+        tag: v0.25.0
+        commit: 7398f36f576504906456476c2f6251b76feb664e
         dest: vendor/golang.org/x/tools
       - type: git
         url: https://github.com/kubernetes/klog
