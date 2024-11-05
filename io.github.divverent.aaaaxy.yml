@@ -34,9 +34,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.5.208
+        tag: v1.5.220
         # --- REV GOES HERE ---
-        commit: e8227ee60be0467804128b8afc80feec87eedb81
+        commit: e1e9d0442dfb4503f557df50b99a16f08981bcd0
       - type: file
         path: modules.txt
         dest: vendor
@@ -48,8 +48,8 @@ modules:
         dest: vendor/github.com/Microsoft/go-winio
       - type: git
         url: https://github.com/adrg/xdg
-        tag: v0.5.0
-        commit: 1356827f670c5da79144804c529f5272fe440f30
+        tag: v0.5.3
+        commit: aa865a51a1b35fd06925fd6b8604991e79e3167e
         dest: vendor/github.com/adrg/xdg
       - type: git
         url: https://github.com/akavel/rsrc
@@ -76,8 +76,8 @@ modules:
         dest: vendor/github.com/ebitengine/hideconsole
       - type: git
         url: https://github.com/ebitengine/oto
-        tag: v3.3.0
-        commit: 4a83e9f0b2c00df3ae6d4c99864697355961c966
+        tag: v3.3.1
+        commit: 43a79a4b5e27ba9e7abdf0953938cf0b21798558
         dest: vendor/github.com/ebitengine/oto/v3
       - type: git
         url: https://github.com/ebitengine/purego
@@ -123,8 +123,8 @@ modules:
         dest: vendor/github.com/hajimehoshi/bitmapfont/v3
       - type: git
         url: https://github.com/hajimehoshi/ebiten
-        tag: v2.8.0
-        commit: 8b0863d32e560e2e6688f4424226fdc9cfeb0fa6
+        tag: v2.8.3
+        commit: 332c68271e90162835b0f752939c9460dcc8fe84
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/inconshreveable/mousetrap
