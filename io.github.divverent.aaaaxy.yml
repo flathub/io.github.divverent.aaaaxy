@@ -34,9 +34,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.5.250
+        tag: v1.5.256
         # --- REV GOES HERE ---
-        commit: f2934199b410ed94f73de390ee543dda590ab79f
+        commit: de4bbd49295e10b68e0212557f8f76038498bb69
       - type: file
         path: modules.txt
         dest: vendor
