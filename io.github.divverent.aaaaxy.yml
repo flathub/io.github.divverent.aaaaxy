@@ -17,6 +17,7 @@ modules:
       - |
         . /usr/lib/sdk/golang/enable.sh
         export ADVZIP=:  # Not available on Flatpak SDK.
+        export STRIP_NONDETERMINISM_ZIP=:  # Not available on Flatpak SDK.
         GOTOOLCHAIN=local AAAAXY_BUILD_USE_VERSION_FILE=true make BUILDTYPE=release BINARY=/app/bin/aaaaxy
         mkdir -p /app/share/icons/hicolor/scalable/apps
         cp aaaaxy.svg /app/share/icons/hicolor/scalable/apps/io.github.divverent.aaaaxy.svg
