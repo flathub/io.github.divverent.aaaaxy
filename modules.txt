@@ -56,8 +56,8 @@ github.com/fardog/tmx
 # github.com/go-logr/logr v1.2.0
 ## explicit; go 1.16
 github.com/go-logr/logr
-# github.com/go-text/typesetting v0.2.1
-## explicit; go 1.17
+# github.com/go-text/typesetting v0.3.0
+## explicit; go 1.19
 github.com/go-text/typesetting/di
 github.com/go-text/typesetting/font
 github.com/go-text/typesetting/font/cff
@@ -72,8 +72,8 @@ github.com/go-text/typesetting/unicodedata
 # github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da
 ## explicit
 github.com/golang/groupcache/lru
-# github.com/google/go-cmp v0.6.0
-## explicit; go 1.13
+# github.com/google/go-cmp v0.7.0
+## explicit; go 1.21
 github.com/google/go-cmp/cmp
 github.com/google/go-cmp/cmp/internal/diff
 github.com/google/go-cmp/cmp/internal/flags
@@ -90,7 +90,7 @@ github.com/google/go-licenses/licenses
 ## explicit; go 1.16
 github.com/google/licenseclassifier/v2
 github.com/google/licenseclassifier/v2/assets
-# github.com/hajimehoshi/bitmapfont/v3 v3.2.0
+# github.com/hajimehoshi/bitmapfont/v3 v3.2.1
 ## explicit; go 1.16
 github.com/hajimehoshi/bitmapfont/v3
 github.com/hajimehoshi/bitmapfont/v3/internal/bitmap
@@ -228,8 +228,8 @@ go.opencensus.io/trace
 go.opencensus.io/trace/internal
 go.opencensus.io/trace/propagation
 go.opencensus.io/trace/tracestate
-# golang.org/x/image v0.24.0
-## explicit; go 1.18
+# golang.org/x/image v0.25.0
+## explicit; go 1.23.0
 golang.org/x/image/ccitt
 golang.org/x/image/colornames
 golang.org/x/image/font
@@ -247,19 +247,19 @@ golang.org/x/image/vector
 # golang.org/x/mod v0.23.0
 ## explicit; go 1.22.0
 golang.org/x/mod/semver
-# golang.org/x/net v0.35.0
-## explicit; go 1.18
+# golang.org/x/net v0.36.0
+## explicit; go 1.23.0
 golang.org/x/net/context/ctxhttp
-# golang.org/x/sync v0.11.0
-## explicit; go 1.18
+# golang.org/x/sync v0.12.0
+## explicit; go 1.23.0
 golang.org/x/sync/errgroup
 golang.org/x/sync/semaphore
-# golang.org/x/sys v0.30.0
-## explicit; go 1.18
+# golang.org/x/sys v0.31.0
+## explicit; go 1.23.0
 golang.org/x/sys/unix
 golang.org/x/sys/windows
-# golang.org/x/text v0.22.0
-## explicit; go 1.18
+# golang.org/x/text v0.23.0
+## explicit; go 1.23.0
 golang.org/x/text/encoding
 golang.org/x/text/encoding/charmap
 golang.org/x/text/encoding/internal
