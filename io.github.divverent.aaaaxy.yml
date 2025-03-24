@@ -1,14 +1,20 @@
 app-id: io.github.divverent.aaaaxy
 runtime: org.freedesktop.Platform
+# Do we need to provide a GL extension somehow?
 runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.golang
 command: aaaaxy
 finish-args:
+  # Needed to access gamepads and for 3D graphics.
+  # If we ever get a gamepad-specific permission, switch to that + dri instead.
   - --device=all
+  # Needed for XShm.
   - --share=ipc
+  # Needed for X11.
   - --socket=x11
+  # Needed for audio playback.
   - --socket=pulseaudio
 modules:
   - name: aaaaxy
@@ -28,11 +34,14 @@ modules:
     sources:
       - type: git
         url: https://github.com/divVerent/aaaaxy
-        tag: v1.6.0
-        commit: c3d9b27e1b3043809e2b48e2c2ff8af87051205b
+        # --- TAG GOES HERE ---
+        tag: v1.6.64
+        # --- REV GOES HERE ---
+        commit: 570e0a4544c08ebe1a1a61bde886cc8c8b636b2c
       - type: file
         path: modules.txt
         dest: vendor
+      # --- GO MODULES START HERE, USE go-vendor-to-flatpak-yml.sh TO UPDATE ---
       - type: git
         url: https://github.com/Microsoft/go-winio
         tag: v0.6.2
@@ -88,8 +97,8 @@ modules:
         dest: vendor/github.com/go-logr/logr
       - type: git
         url: https://github.com/go-text/typesetting
-        tag: v0.2.1
-        commit: 202cb3103dec2c90b3264b2c8f1012cb1e3286ef
+        tag: v0.3.0
+        commit: b7a51d1525aa33c6ddff6208e5d3b3618d52419f
         dest: vendor/github.com/go-text/typesetting
       - type: git
         url: https://github.com/golang/groupcache
@@ -97,8 +106,8 @@ modules:
         dest: vendor/github.com/golang/groupcache
       - type: git
         url: https://github.com/google/go-cmp
-        tag: v0.6.0
-        commit: c3ad8435e7bef96af35732bc0789e5a2278c6d5f
+        tag: v0.7.0
+        commit: 9b12f366a942ebc7254abc7f32ca05068b455fb7
         dest: vendor/github.com/google/go-cmp
       - type: git
         url: https://github.com/google/go-licenses
@@ -111,8 +120,8 @@ modules:
         dest: vendor/github.com/google/licenseclassifier/v2
       - type: git
         url: https://github.com/hajimehoshi/bitmapfont
-        tag: v3.2.0
-        commit: f16c2ddb2ebf72371393b86b941618964cf6301e
+        tag: v3.2.1
+        commit: c65ef6305c7d81810aeb44c94c87fb0f4d9953a3
         dest: vendor/github.com/hajimehoshi/bitmapfont/v3
       - type: git
         url: https://github.com/hajimehoshi/ebiten
@@ -218,8 +227,8 @@ modules:
         dest: vendor/go.opencensus.io
       - type: git
         url: https://go.googlesource.com/image
-        tag: v0.24.0
-        commit: 45df02f8a1c234d7257a619ebae89037d8aaf9f1
+        tag: v0.25.0
+        commit: e7e23ba50196f0b209e707121bd3fdfab8e7eea5
         dest: vendor/golang.org/x/image
       - type: git
         url: https://go.googlesource.com/mod
@@ -228,23 +237,23 @@ modules:
         dest: vendor/golang.org/x/mod
       - type: git
         url: https://go.googlesource.com/net
-        tag: v0.35.0
-        commit: df97a48b7bf2f79d63b98d48185389824125a2cf
+        tag: v0.36.0
+        commit: 85d1d54551b68719346cb9fec24b911da4e452a1
         dest: vendor/golang.org/x/net
       - type: git
         url: https://go.googlesource.com/sync
-        tag: v0.11.0
-        commit: fe3591bd8a96873abc98bb9d2d5c62f27efca3e9
+        tag: v0.12.0
+        commit: b637f27e40ad6e222f3d301cc113e635f0fa08be
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
-        tag: v0.30.0
-        commit: 863b3c4ac4975ff758815fa8d01acb6771f37177
+        tag: v0.31.0
+        commit: 74cfc93a99be6ca6f193856132e6799065b071af
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/text
-        tag: v0.22.0
-        commit: 3b64043c9e8fa8cd61a019df17dc729630915fa9
+        tag: v0.23.0
+        commit: 566b44fc931e2542778a18423c655ce99b4f1402
         dest: vendor/golang.org/x/text
       - type: git
         url: https://go.googlesource.com/tools
