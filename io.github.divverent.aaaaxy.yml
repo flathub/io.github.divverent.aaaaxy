@@ -35,9 +35,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.6.176
+        tag: v1.6.194
         # --- REV GOES HERE ---
-        commit: b93732eb5d8a9b909f7e86d9d480b298dd370357
+        commit: e5603378408c1e50d2751b32f5ee53313a18ac27
       - type: file
         path: modules.txt
         dest: vendor
@@ -227,8 +227,8 @@ modules:
         dest: vendor/go.opencensus.io
       - type: git
         url: https://go.googlesource.com/image
-        tag: v0.25.0
-        commit: e7e23ba50196f0b209e707121bd3fdfab8e7eea5
+        tag: v0.26.0
+        commit: 0aed5e29b6991be91ccd8c7b739f820182e5d534
         dest: vendor/golang.org/x/image
       - type: git
         url: https://go.googlesource.com/mod
@@ -237,23 +237,23 @@ modules:
         dest: vendor/golang.org/x/mod
       - type: git
         url: https://go.googlesource.com/net
-        tag: v0.37.0
-        commit: 99b3ae0643f9a2f9d820fcbba5f9e4c83b23bd48
+        tag: v0.38.0
+        commit: e1fcd82abba34df74614020343be8eb1fe85f0d9
         dest: vendor/golang.org/x/net
       - type: git
         url: https://go.googlesource.com/sync
-        tag: v0.12.0
-        commit: b637f27e40ad6e222f3d301cc113e635f0fa08be
+        tag: v0.13.0
+        commit: 396f3a06ea2a49eb410f12e244c0dd77095d0de9
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
-        tag: v0.31.0
-        commit: 74cfc93a99be6ca6f193856132e6799065b071af
+        tag: v0.32.0
+        commit: 01aaa8342f9d6e36356d05d0baff28e64ee6367e
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/text
-        tag: v0.23.0
-        commit: 566b44fc931e2542778a18423c655ce99b4f1402
+        tag: v0.24.0
+        commit: 4890c57b7721969ba8997aea0970c11004f1f5b7
         dest: vendor/golang.org/x/text
       - type: git
         url: https://go.googlesource.com/tools
