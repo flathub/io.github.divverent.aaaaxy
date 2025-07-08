@@ -23,6 +23,7 @@ modules:
       - |
         . /usr/lib/sdk/golang/enable.sh
         export ADVZIP=:  # Not available on Flatpak SDK.
+        export STRIP_NONDETERMINISM_GZIP=:  # Not available on Flatpak SDK.
         export STRIP_NONDETERMINISM_ZIP=:  # Not available on Flatpak SDK.
         GOTOOLCHAIN=local AAAAXY_BUILD_USE_VERSION_FILE=true make BUILDTYPE=release BINARY=/app/bin/aaaaxy
         mkdir -p /app/share/icons/hicolor/scalable/apps
@@ -35,9 +36,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.6.257
+        tag: v1.6.257+fdroid1
         # --- REV GOES HERE ---
-        commit: 54d5cc3995182dfa2055ecb73b497dd0c3ecd62c
+        commit: fc57bded0b918083756505235b33ed9c90445f14
       - type: file
         path: modules.txt
         dest: vendor
