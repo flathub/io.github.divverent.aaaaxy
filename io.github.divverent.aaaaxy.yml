@@ -36,9 +36,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.6.301
+        tag: v1.6.314
         # --- REV GOES HERE ---
-        commit: 878506bcd420f65923da54cf6fd86ce214ee31a6
+        commit: 82ba4a88d279c4a946334986663f8a46cc04d469
       - type: file
         path: modules.txt
         dest: vendor
@@ -126,8 +126,8 @@ modules:
         dest: vendor/github.com/hajimehoshi/bitmapfont/v3
       - type: git
         url: https://github.com/hajimehoshi/ebiten
-        tag: v2.9.1
-        commit: cb26a22badda066bd9474d3f04ecb8af76a76b5b
+        tag: v2.9.4
+        commit: 9f8f50693affdcb80089528ab61a860aad53db6c
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/inconshreveable/mousetrap
@@ -253,8 +253,8 @@ modules:
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
-        tag: v0.37.0
-        commit: 1edeebeea09c66c5a886ccfefb1be5dafac5c893
+        tag: v0.38.0
+        commit: 15129aafc3056028aa2694528ac20373f8cd34e4
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/text
