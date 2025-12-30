@@ -36,9 +36,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.6.321
+        tag: v1.6.332
         # --- REV GOES HERE ---
-        commit: b20fe041c8455775491c7eeff5207882e03ae416
+        commit: 9a2a5e0f3977eb1116f9203dcebfc88d3d046de2
       - type: file
         path: modules.txt
         dest: vendor
@@ -98,8 +98,8 @@ modules:
         dest: vendor/github.com/go-logr/logr
       - type: git
         url: https://github.com/go-text/typesetting
-        tag: v0.3.0
-        commit: b7a51d1525aa33c6ddff6208e5d3b3618d52419f
+        tag: v0.3.2
+        commit: 79b8e57fdbe5f45e0f537efbcc8f6867144bdc70
         dest: vendor/github.com/go-text/typesetting
       - type: git
         url: https://github.com/golang/groupcache
@@ -126,8 +126,8 @@ modules:
         dest: vendor/github.com/hajimehoshi/bitmapfont/v3
       - type: git
         url: https://github.com/hajimehoshi/ebiten
-        tag: v2.9.4
-        commit: 9f8f50693affdcb80089528ab61a860aad53db6c
+        tag: v2.9.7
+        commit: e5c886370fe341524305173d43ae53de2afcc11e
         dest: vendor/github.com/hajimehoshi/ebiten/v2
       - type: git
         url: https://github.com/inconshreveable/mousetrap
@@ -195,8 +195,8 @@ modules:
         dest: vendor/github.com/otiai10/mint
       - type: git
         url: https://github.com/pierrec/lz4
-        tag: v4.1.22
-        commit: fdaa7e2eae2400f761d8503ca047b46d2ab67507
+        tag: v4.1.23
+        commit: cd9d7a4f66405a92f4881933816b828b0f7d5fe2
         dest: vendor/github.com/pierrec/lz4/v4
       - type: git
         url: https://github.com/randall77/makefat
@@ -214,8 +214,8 @@ modules:
         dest: vendor/github.com/sergi/go-diff
       - type: git
         url: https://github.com/spf13/cobra
-        tag: v1.10.1
-        commit: 7da941c3547e93b8c9f70bbd3befca79c6335388
+        tag: v1.10.2
+        commit: 88b30ab89da2d0d0abb153818746c5a2d30eccec
         dest: vendor/github.com/spf13/cobra
       - type: git
         url: https://github.com/spf13/pflag
@@ -233,38 +233,38 @@ modules:
         dest: vendor/go.opencensus.io
       - type: git
         url: https://go.googlesource.com/image
-        tag: v0.33.0
-        commit: 9c9d08c65c08567c997eccc8bde52fcc9369bea6
+        tag: v0.34.0
+        commit: c53c97f4ed88d55fafe963ee6e93cb357663d650
         dest: vendor/golang.org/x/image
       - type: git
         url: https://go.googlesource.com/mod
-        tag: v0.29.0
-        commit: bba3e065a67271df90253c78c98f2cea7f572948
+        tag: v0.30.0
+        commit: 7416265ac6eca137286fb2adcc87f9feec458b4c
         dest: vendor/golang.org/x/mod
       - type: git
         url: https://go.googlesource.com/net
-        tag: v0.46.0
-        commit: 2002a064a49010d8b881673c73f04e0b741e7c32
+        tag: v0.47.0
+        commit: 9a296438e54dff851a45667aa645a97003b44db5
         dest: vendor/golang.org/x/net
       - type: git
         url: https://go.googlesource.com/sync
-        tag: v0.18.0
-        commit: 1966f539bbd7664efd5bb7462ae94d9db67f4502
+        tag: v0.19.0
+        commit: 2a180e22fddcc336475e72aa950be958c1b68d33
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
-        tag: v0.38.0
-        commit: 15129aafc3056028aa2694528ac20373f8cd34e4
+        tag: v0.39.0
+        commit: 08e54827f6706016347e1e4f4866b84126842b20
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/text
-        tag: v0.31.0
-        commit: e7ff6b3572e1a83c072ef150c985f86603986e1b
+        tag: v0.32.0
+        commit: 0dd57a6ef90c283b902525213f15d6b2a59cc84b
         dest: vendor/golang.org/x/text
       - type: git
         url: https://go.googlesource.com/tools
-        tag: v0.38.0
-        commit: a22b5e8a9b8d2234e1e960ec2473e4011f012a6b
+        tag: v0.39.0
+        commit: 034e59c473362f8f2be47694d98fd3f12a1ad497
         dest: vendor/golang.org/x/tools
       - type: git
         url: https://github.com/kubernetes/klog
