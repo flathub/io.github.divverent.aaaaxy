@@ -35,9 +35,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.7.61
+        tag: v1.7.77
         # --- REV GOES HERE ---
-        commit: 248fd82e6fa32f8467f7bc97d2ad36c6a80011a7
+        commit: eb3ae27e91d662f1d952201f7f9895bc2c348d54
       - type: file
         path: modules.txt
         dest: vendor
@@ -83,8 +83,8 @@ modules:
         dest: vendor/github.com/ebitengine/oto/v3
       - type: git
         url: https://github.com/ebitengine/purego
-        tag: v0.10.0
-        commit: bb9b1f4a53d96a474537a6f1a25bf304b95450a7
+        tag: v0.10.1
+        commit: eaff005fcda6dae0d855da9c6ee3efb7e775ddad
         dest: vendor/github.com/ebitengine/purego
       - type: git
         url: https://github.com/fardog/tmx
@@ -153,8 +153,8 @@ modules:
         dest: vendor/github.com/jfreymuth/vorbis
       - type: git
         url: https://github.com/josephspurrier/goversioninfo
-        tag: v1.5.0
-        commit: 53cb51b8aa6b6b62ab8196e66a766ea7598c67fa
+        tag: v1.7.0
+        commit: b66839b92ddd6c4098296d76c155715510a1563c
         dest: vendor/github.com/josephspurrier/goversioninfo
       - type: git
         url: https://github.com/leonelquinteros/gotext
@@ -163,8 +163,8 @@ modules:
         dest: vendor/github.com/leonelquinteros/gotext
       - type: git
         url: https://github.com/lestrrat-go/strftime
-        tag: v1.1.1
-        commit: a8371f71591092e60e52e30ba5f8e29484869fca
+        tag: v1.2.0
+        commit: 0a8d050977ff3d453039e25e53f99cee7b0ce938
         dest: vendor/github.com/lestrrat-go/strftime
       - type: git
         url: https://github.com/lucasb-eyer/go-colorful
@@ -193,8 +193,8 @@ modules:
         dest: vendor/github.com/otiai10/mint
       - type: git
         url: https://github.com/pierrec/lz4
-        tag: v4.1.26
-        commit: 60ed180f469c3090aa5453e33043a96f02e790a5
+        tag: v4.1.27
+        commit: 1698dae8b127a3fe0584d0c0603a7eb2a39f4692
         dest: vendor/github.com/pierrec/lz4/v4
       - type: git
         url: https://github.com/randall77/makefat
@@ -231,18 +231,18 @@ modules:
         dest: vendor/go.opencensus.io
       - type: git
         url: https://go.googlesource.com/image
-        tag: v0.39.0
-        commit: 3d5c9b6581c33f5d7d9223b9613a2f6bad6f7df5
+        tag: v0.41.0
+        commit: 0d61147654dcd60265f4bfa72e5f66f578630e22
         dest: vendor/golang.org/x/image
       - type: git
         url: https://go.googlesource.com/mod
-        tag: v0.34.0
-        commit: 1ac721dff8591283e59aba6412a0eafc8b950d83
+        tag: v0.35.0
+        commit: 03901d351deb5bd95deb90714fb75bf8e232cb22
         dest: vendor/golang.org/x/mod
       - type: git
         url: https://go.googlesource.com/net
-        tag: v0.52.0
-        commit: 316e20ce34d380337f7983808c26948232e16455
+        tag: v0.53.0
+        commit: a8d1fc14d9e33e1f6842ab78a0127d42cd8fff44
         dest: vendor/golang.org/x/net
       - type: git
         url: https://go.googlesource.com/sync
@@ -251,18 +251,18 @@ modules:
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
-        tag: v0.43.0
-        commit: f33a730cd0c449cfd6f7106780c73052e96cc33d
+        tag: v0.45.0
+        commit: 397d5f80920585bc27433d878aba498d062f81e1
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/text
-        tag: v0.36.0
-        commit: 8577a70117e110160c45f32af0e0df84eef844f7
+        tag: v0.37.0
+        commit: 3ef517e623a4bfc08d6457f87d73afda7af7d8e1
         dest: vendor/golang.org/x/text
       - type: git
         url: https://go.googlesource.com/tools
-        tag: v0.43.0
-        commit: 24a8e95f9d7ae2696f66314da5e50c0d98ccaa90
+        tag: v0.44.0
+        commit: 3dd188df80fd3563559f02e4eeb10ba1043cce55
         dest: vendor/golang.org/x/tools
       - type: git
         url: https://github.com/kubernetes/klog
