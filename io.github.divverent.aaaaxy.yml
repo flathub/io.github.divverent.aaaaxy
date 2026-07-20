@@ -35,9 +35,9 @@ modules:
       - type: git
         url: https://github.com/divVerent/aaaaxy
         # --- TAG GOES HERE ---
-        tag: v1.7.119
+        tag: v1.7.218
         # --- REV GOES HERE ---
-        commit: afc76cf80ad0d98a5079ecd346d7476907defffb
+        commit: fd681773e35b4151e0cbdccf7d88b881bf7dd775
       - type: file
         path: modules.txt
         dest: vendor
@@ -231,38 +231,38 @@ modules:
         dest: vendor/go.opencensus.io
       - type: git
         url: https://go.googlesource.com/image
-        tag: v0.43.0
-        commit: b5baf4103fb7c5369917da9cc1168bdb3a50bb53
+        tag: v0.44.0
+        commit: 891abcb30583071a0b4f1a415e7cd77b18b2a952
         dest: vendor/golang.org/x/image
       - type: git
         url: https://go.googlesource.com/mod
-        tag: v0.36.0
-        commit: 643da9ba74f1165d8cae1505d453b3de3cf21b7b
+        tag: v0.37.0
+        commit: deb1dfcdb7c7fd98fb5afddc3e95dd36d5880874
         dest: vendor/golang.org/x/mod
       - type: git
         url: https://go.googlesource.com/net
-        tag: v0.54.0
-        commit: b138e06246cb323f2f380c2b7f7dd91f581dd56b
+        tag: v0.56.0
+        commit: 9e7fdbfadb32b0cc7524100014c5cf9b6adc7729
         dest: vendor/golang.org/x/net
       - type: git
         url: https://go.googlesource.com/sync
-        tag: v0.21.0
-        commit: 5071ed6a9f1617117556b66384f765c934de3698
+        tag: v0.22.0
+        commit: 1eb64d4bc0cde6da1bb8ebc7f178bb577508e5d0
         dest: vendor/golang.org/x/sync
       - type: git
         url: https://go.googlesource.com/sys
-        tag: v0.46.0
-        commit: d58dcfa8a74514c0ef0fc401259156c5e2fc9ff5
+        tag: v0.47.0
+        commit: 9e7e939dcafac07e8ab4cffa6e5fc74908413f00
         dest: vendor/golang.org/x/sys
       - type: git
         url: https://go.googlesource.com/text
-        tag: v0.38.0
-        commit: f4bb6328041b090f85b93014bd369edfcd24bdef
+        tag: v0.40.0
+        commit: 724af9c35838492dcaacc1ac51a8a0187c994c54
         dest: vendor/golang.org/x/text
       - type: git
         url: https://go.googlesource.com/tools
-        tag: v0.45.0
-        commit: 2aabba0e4be44cc8f254ced118a7156d04bbc9f3
+        tag: v0.47.0
+        commit: fbf9f2e2c8124fbe1877f5ed2857111038d9fe12
         dest: vendor/golang.org/x/tools
       - type: git
         url: https://github.com/kubernetes/klog
