@@ -1,5 +1,5 @@
-# github.com/Microsoft/go-winio v0.6.2
-## explicit; go 1.21
+# github.com/Microsoft/go-winio v0.6.4
+## explicit; go 1.26.0
 github.com/Microsoft/go-winio
 github.com/Microsoft/go-winio/internal/fs
 github.com/Microsoft/go-winio/internal/socket
@@ -23,8 +23,8 @@ github.com/davecgh/go-spew/spew
 # github.com/dchest/jsmin v1.0.0
 ## explicit; go 1.23.1
 github.com/dchest/jsmin
-# github.com/ebitengine/gomobile v0.0.0-20260211053922-3d992dae95d1
-## explicit; go 1.24.0
+# github.com/ebitengine/gomobile v0.0.0-20260820040257-d11f821a26a6
+## explicit; go 1.25.0
 github.com/ebitengine/gomobile/app
 github.com/ebitengine/gomobile/app/internal/callfn
 github.com/ebitengine/gomobile/event/key
@@ -38,18 +38,18 @@ github.com/ebitengine/gomobile/internal/mobileinit
 # github.com/ebitengine/hideconsole v1.0.0
 ## explicit; go 1.18
 github.com/ebitengine/hideconsole
-# github.com/ebitengine/oto/v3 v3.4.0
-## explicit; go 1.24.0
+# github.com/ebitengine/oto/v3 v3.5.1
+## explicit; go 1.25.0
 github.com/ebitengine/oto/v3
 github.com/ebitengine/oto/v3/internal/mux
 github.com/ebitengine/oto/v3/internal/oboe
-# github.com/ebitengine/purego v0.10.1
-## explicit; go 1.18
+# github.com/ebitengine/purego v0.11.1
+## explicit; go 1.25.0
 github.com/ebitengine/purego
+github.com/ebitengine/purego/cstrings
 github.com/ebitengine/purego/internal/cgo
 github.com/ebitengine/purego/internal/fakecgo
 github.com/ebitengine/purego/internal/strings
-github.com/ebitengine/purego/internal/xreflect
 github.com/ebitengine/purego/objc
 # github.com/fardog/tmx v0.0.0-20210504210836-02c45f261672
 ## explicit
@@ -57,8 +57,9 @@ github.com/fardog/tmx
 # github.com/go-logr/logr v1.2.0
 ## explicit; go 1.16
 github.com/go-logr/logr
-# github.com/go-text/typesetting v0.3.4
+# github.com/go-text/typesetting v0.3.5
 ## explicit; go 1.19
+github.com/go-text/typesetting/bidi
 github.com/go-text/typesetting/di
 github.com/go-text/typesetting/font
 github.com/go-text/typesetting/font/cff
@@ -91,16 +92,17 @@ github.com/google/go-licenses/licenses
 ## explicit; go 1.16
 github.com/google/licenseclassifier/v2
 github.com/google/licenseclassifier/v2/assets
-# github.com/hajimehoshi/bitmapfont/v4 v4.1.1 => github.com/hajimehoshi/bitmapfont/v4 v4.1.1-0.20260421051819-da1385d11524
-## explicit; go 1.23.0
+# github.com/hajimehoshi/bitmapfont/v4 v4.2.0
+## explicit; go 1.25.0
 github.com/hajimehoshi/bitmapfont/v4
 github.com/hajimehoshi/bitmapfont/v4/internal/bitmap
 github.com/hajimehoshi/bitmapfont/v4/internal/unicode
-# github.com/hajimehoshi/ebiten/v2 v2.9.9
-## explicit; go 1.24.0
+# github.com/hajimehoshi/ebiten/v2 v2.10.5
+## explicit; go 1.25.0
 github.com/hajimehoshi/ebiten/v2
 github.com/hajimehoshi/ebiten/v2/audio
 github.com/hajimehoshi/ebiten/v2/audio/internal/convert
+github.com/hajimehoshi/ebiten/v2/audio/internal/vmaudio
 github.com/hajimehoshi/ebiten/v2/audio/vorbis
 github.com/hajimehoshi/ebiten/v2/colorm
 github.com/hajimehoshi/ebiten/v2/internal/affine
@@ -109,7 +111,12 @@ github.com/hajimehoshi/ebiten/v2/internal/buffered
 github.com/hajimehoshi/ebiten/v2/internal/builtinshader
 github.com/hajimehoshi/ebiten/v2/internal/clock
 github.com/hajimehoshi/ebiten/v2/internal/cocoa
+github.com/hajimehoshi/ebiten/v2/internal/color
+github.com/hajimehoshi/ebiten/v2/internal/colormode
+github.com/hajimehoshi/ebiten/v2/internal/colormshader
 github.com/hajimehoshi/ebiten/v2/internal/debug
+github.com/hajimehoshi/ebiten/v2/internal/exeicon
+github.com/hajimehoshi/ebiten/v2/internal/fbdev
 github.com/hajimehoshi/ebiten/v2/internal/file
 github.com/hajimehoshi/ebiten/v2/internal/gamepad
 github.com/hajimehoshi/ebiten/v2/internal/gamepaddb
@@ -124,25 +131,34 @@ github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver/metal/mtl
 github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver/opengl
 github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver/opengl/gl
 github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver/playstation5
+github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver/remote
 github.com/hajimehoshi/ebiten/v2/internal/hook
 github.com/hajimehoshi/ebiten/v2/internal/inputstate
+github.com/hajimehoshi/ebiten/v2/internal/legacyshader
+github.com/hajimehoshi/ebiten/v2/internal/mathutil
 github.com/hajimehoshi/ebiten/v2/internal/microsoftgdk
 github.com/hajimehoshi/ebiten/v2/internal/mipmap
+github.com/hajimehoshi/ebiten/v2/internal/objcutil
 github.com/hajimehoshi/ebiten/v2/internal/packing
 github.com/hajimehoshi/ebiten/v2/internal/png
-github.com/hajimehoshi/ebiten/v2/internal/restorable
 github.com/hajimehoshi/ebiten/v2/internal/shader
 github.com/hajimehoshi/ebiten/v2/internal/shaderir
 github.com/hajimehoshi/ebiten/v2/internal/shaderir/glsl
 github.com/hajimehoshi/ebiten/v2/internal/shaderir/hlsl
 github.com/hajimehoshi/ebiten/v2/internal/shaderir/msl
+github.com/hajimehoshi/ebiten/v2/internal/shaderprecomp
 github.com/hajimehoshi/ebiten/v2/internal/thread
 github.com/hajimehoshi/ebiten/v2/internal/ui
 github.com/hajimehoshi/ebiten/v2/internal/vibrate
+github.com/hajimehoshi/ebiten/v2/internal/vmguest
+github.com/hajimehoshi/ebiten/v2/internal/vmprotocol
+github.com/hajimehoshi/ebiten/v2/internal/windowsystem
 github.com/hajimehoshi/ebiten/v2/internal/winver
 github.com/hajimehoshi/ebiten/v2/mobile
 github.com/hajimehoshi/ebiten/v2/mobile/ebitenmobileview
 github.com/hajimehoshi/ebiten/v2/text/v2
+github.com/hajimehoshi/ebiten/v2/text/v2/internal/chunk
+github.com/hajimehoshi/ebiten/v2/text/v2/internal/oksvg
 github.com/hajimehoshi/ebiten/v2/text/v2/internal/textutil
 github.com/hajimehoshi/ebiten/v2/vector
 # github.com/inconshreveable/mousetrap v1.1.0
@@ -151,36 +167,34 @@ github.com/inconshreveable/mousetrap
 # github.com/jeandeaual/go-locale v0.0.0-20250612000132-0ef82f21eade
 ## explicit; go 1.18
 github.com/jeandeaual/go-locale
-# github.com/jezek/xgb v1.3.1
-## explicit; go 1.11
-github.com/jezek/xgb
-github.com/jezek/xgb/randr
-github.com/jezek/xgb/render
-github.com/jezek/xgb/xproto
 # github.com/jfreymuth/oggvorbis v1.0.5
 ## explicit; go 1.15
 github.com/jfreymuth/oggvorbis
+# github.com/jfreymuth/pulse v0.1.3
+## explicit; go 1.12
+github.com/jfreymuth/pulse
+github.com/jfreymuth/pulse/proto
 # github.com/jfreymuth/vorbis v1.0.2
 ## explicit; go 1.15
 github.com/jfreymuth/vorbis
 # github.com/josephspurrier/goversioninfo v1.7.0
 ## explicit; go 1.19
 github.com/josephspurrier/goversioninfo
-# github.com/leonelquinteros/gotext v1.7.2
-## explicit; go 1.23.5
+# github.com/leonelquinteros/gotext v1.8.0
+## explicit; go 1.27
 github.com/leonelquinteros/gotext
 github.com/leonelquinteros/gotext/plurals
 # github.com/lestrrat-go/strftime v1.2.0
 ## explicit; go 1.21
 github.com/lestrrat-go/strftime
-# github.com/lucasb-eyer/go-colorful v1.4.0
+# github.com/lucasb-eyer/go-colorful v1.4.1
 ## explicit; go 1.12
 github.com/lucasb-eyer/go-colorful
 # github.com/mitchellh/hashstructure/v2 v2.0.2
 ## explicit; go 1.14
 github.com/mitchellh/hashstructure/v2
-# github.com/ncruces/zenity v0.10.14
-## explicit; go 1.20
+# github.com/ncruces/zenity v0.10.15
+## explicit; go 1.25.0
 github.com/ncruces/zenity
 github.com/ncruces/zenity/internal/win
 github.com/ncruces/zenity/internal/zenutil
@@ -191,8 +205,8 @@ github.com/otiai10/copy
 ## explicit; go 1.18
 github.com/otiai10/mint
 github.com/otiai10/mint/mquery
-# github.com/pierrec/lz4/v4 v4.1.27
-## explicit; go 1.17
+# github.com/pierrec/lz4/v4 v4.1.33
+## explicit; go 1.22
 github.com/pierrec/lz4/v4
 github.com/pierrec/lz4/v4/internal/lz4block
 github.com/pierrec/lz4/v4/internal/lz4errors
@@ -201,9 +215,6 @@ github.com/pierrec/lz4/v4/internal/xxh32
 # github.com/randall77/makefat v0.0.0-20260406194835-1b91746796b7
 ## explicit; go 1.13
 github.com/randall77/makefat
-# github.com/rivo/uniseg v0.4.7
-## explicit; go 1.18
-github.com/rivo/uniseg
 # github.com/sergi/go-diff v1.2.0
 ## explicit; go 1.12
 github.com/sergi/go-diff/diffmatchpatch
@@ -213,6 +224,9 @@ github.com/spf13/cobra
 # github.com/spf13/pflag v1.0.9
 ## explicit; go 1.12
 github.com/spf13/pflag
+# github.com/srwiley/rasterx v0.0.0-20220730225603-2ab79fcdd4ef
+## explicit; go 1.17
+github.com/srwiley/rasterx
 # github.com/zachomedia/go-bdf v0.0.0-20220611021443-a3af701111be
 ## explicit; go 1.16
 github.com/zachomedia/go-bdf
@@ -234,10 +248,11 @@ go.opencensus.io/trace
 go.opencensus.io/trace/internal
 go.opencensus.io/trace/propagation
 go.opencensus.io/trace/tracestate
-# golang.org/x/image v0.44.0
-## explicit; go 1.25.0
+# golang.org/x/image v0.47.0
+## explicit; go 1.26.0
 golang.org/x/image/ccitt
 golang.org/x/image/colornames
+golang.org/x/image/draw
 golang.org/x/image/font
 golang.org/x/image/font/gofont/gobold
 golang.org/x/image/font/gofont/gomedium
@@ -247,26 +262,29 @@ golang.org/x/image/font/gofont/gosmallcaps
 golang.org/x/image/font/opentype
 golang.org/x/image/font/sfnt
 golang.org/x/image/internal/safemath
+golang.org/x/image/math/f64
 golang.org/x/image/math/fixed
 golang.org/x/image/tiff
 golang.org/x/image/tiff/lzw
 golang.org/x/image/vector
-# golang.org/x/mod v0.37.0
-## explicit; go 1.25.0
+# golang.org/x/mod v0.41.0
+## explicit; go 1.26.0
 golang.org/x/mod/semver
-# golang.org/x/net v0.56.0
-## explicit; go 1.25.0
+# golang.org/x/net v0.59.0
+## explicit; go 1.26.0
 golang.org/x/net/context/ctxhttp
-# golang.org/x/sync v0.22.0
-## explicit; go 1.25.0
+# golang.org/x/sync v0.24.0
+## explicit; go 1.26.0
 golang.org/x/sync/errgroup
 golang.org/x/sync/semaphore
-# golang.org/x/sys v0.47.0
-## explicit; go 1.25.0
+# golang.org/x/sys v0.49.0
+## explicit; go 1.26.0
+golang.org/x/sys/cpu
 golang.org/x/sys/unix
 golang.org/x/sys/windows
-# golang.org/x/text v0.40.0
-## explicit; go 1.25.0
+golang.org/x/sys/windows/registry
+# golang.org/x/text v0.43.0
+## explicit; go 1.26.0
 golang.org/x/text/encoding
 golang.org/x/text/encoding/charmap
 golang.org/x/text/encoding/internal
@@ -278,25 +296,23 @@ golang.org/x/text/language
 golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
 golang.org/x/text/width
-# golang.org/x/tools v0.47.0
-## explicit; go 1.25.0
+# golang.org/x/tools v0.51.0
+## explicit; go 1.26.0
 golang.org/x/tools/go/ast/edge
 golang.org/x/tools/go/ast/inspector
 golang.org/x/tools/go/gcexportdata
 golang.org/x/tools/go/packages
 golang.org/x/tools/go/types/objectpath
-golang.org/x/tools/go/types/typeutil
-golang.org/x/tools/internal/aliases
 golang.org/x/tools/internal/event
 golang.org/x/tools/internal/event/core
 golang.org/x/tools/internal/event/keys
 golang.org/x/tools/internal/event/label
 golang.org/x/tools/internal/gcimporter
 golang.org/x/tools/internal/gocommand
+golang.org/x/tools/internal/moremaps
 golang.org/x/tools/internal/packagesinternal
 golang.org/x/tools/internal/pkgbits
 golang.org/x/tools/internal/stdlib
-golang.org/x/tools/internal/typeparams
 golang.org/x/tools/internal/typesinternal
 golang.org/x/tools/internal/versions
 # k8s.io/klog/v2 v2.90.1
@@ -307,4 +323,3 @@ k8s.io/klog/v2/internal/clock
 k8s.io/klog/v2/internal/dbg
 k8s.io/klog/v2/internal/serialize
 k8s.io/klog/v2/internal/severity
-# github.com/hajimehoshi/bitmapfont/v4 => github.com/hajimehoshi/bitmapfont/v4 v4.1.1-0.20260421051819-da1385d11524
